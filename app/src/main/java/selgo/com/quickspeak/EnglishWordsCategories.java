@@ -17,8 +17,8 @@ public class EnglishWordsCategories extends AppCompatActivity {
         String[] wordsCategories;
         wordsCategories = getResources().getStringArray(R.array.english_words_categories);
 
-        ListView lv = (ListView) findViewById(R.id.english_category_list);
-        ArrayAdapter<String> aa = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, wordsCategories);
-        lv.setAdapter(aa);
+        ListView categories = (ListView) findViewById(R.id.english_category_list);
+        ArrayAdapter<String> categoriesAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, wordsCategories);
+        categories.setAdapter(categoriesAdapter);
     }
 }
