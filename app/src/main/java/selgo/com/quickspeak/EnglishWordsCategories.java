@@ -2,6 +2,8 @@ package selgo.com.quickspeak;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 public class EnglishWordsCategories extends AppCompatActivity {
 
@@ -11,5 +13,12 @@ public class EnglishWordsCategories extends AppCompatActivity {
         setContentView(R.layout.activity_english_words_categories);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        String[] wordsCategories;
+        wordsCategories = getResources().getStringArray(R.array.english_words_categories);
+
+        ListView lv = (ListView) findViewById(R.id.english_category_list);
+        ArrayAdapter<String> aa = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, wordsCategories);
+        lv.setAdapter(aa);
     }
 }

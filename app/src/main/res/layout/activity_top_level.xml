@@ -7,6 +7,12 @@
     android:orientation="vertical"
     tools:context="selgo.com.quickspeak.TopLevelActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/InstructionTextStyle"
+        android:text="@string/language_choice"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,14 +21,14 @@
         <ImageView
             android:id="@+id/english_image"
             android:src="@mipmap/english_flag"
-            style="@style/LanguageCategoryStyle"
+            style="@style/EnglishLanguageItemStyle"
             android:layout_width="match_parent"
             android:layout_weight="3"
             android:layout_height="90dp" />
 
         <TextView
             android:id="@+id/english_name"
-            style="@style/LanguageCategoryStyle"
+            style="@style/EnglishLanguageItemStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
