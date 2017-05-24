@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Quick Speak</string>
     <string name="english_language">Αγγλικά</string>
+    <string-array name="english_words_categories">
+        <item>Το Αλφάβητο</item>
+        <item>Βασικό Επίπεδο 1</item>
+        <item>Βασικό Επίπεδο 2</item>
+        <item>Βασικό Επίπεδο 3</item>
+        <item>Βασικό Επίπεδο 4</item>
+        <item>Βασικό Επίπεδο 5</item>
+        <item>Βασικό Επίπεδο 6</item>
+    </string-array>
 </resources>

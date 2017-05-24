@@ -9,5 +9,7 @@ public class EnglishWordsCategories extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_english_words_categories);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

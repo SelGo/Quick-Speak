@@ -20,7 +20,13 @@
 
         <activity
             android:name=".EnglishWordsCategories"
-            android:label="@string/english_language">
+            android:label="@string/english_language"
+            android:parentActivityName=".TopLevelActivity" >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TopLevelActivity" />
+
         </activity>
     </application>
 
