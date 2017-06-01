@@ -3,111 +3,111 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\petro\.android\build-cache\a36e4eee339fd4976cca3901a0fdae73c4e716bd\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Users\petro\StudioProjects\Quick-Speak\app\build\intermediates\pre-dexed\debug\classes_193b38a794214a77ef690e60808ca20874a70cfb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\petro\.android\build-cache\41067583caf1e3b462cdca512badd913a08ae385\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Users\petro\StudioProjects\Quick-Speak\app\build\intermediates\pre-dexed\debug\classes_f27d5728d6387270215d0e3b513a3936c29ca41e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\petro\.android\build-cache\150befe3f009d6d75cc92df7e319573c888de531\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\petro\StudioProjects\Quick-Speak\app\build\intermediates\pre-dexed\debug\classes_86fdaa81aac37369cb11a4d6361d0b3003517c88.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\petro\.android\build-cache\2775cc7347b9c4efaad7dc301b1d6daf4c311692\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Users\petro\StudioProjects\Quick-Speak\app\build\intermediates\pre-dexed\debug\classes_21b08a5a7849fdd7238e88ed98127f4815f9a3fb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\petro\.android\build-cache\3c3f17215b7f0a37c53e8110346803d342282c3b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\petro\StudioProjects\Quick-Speak\app\build\intermediates\pre-dexed\debug\classes_dcf64a773152286e5f2c044a558020ee67f3b9dd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\petro\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jar="/home/selgo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Users\petro\StudioProjects\Quick-Speak\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_06b6dcc1189d3dbca6cf6e02dd3b6ddc4fe95435.jar" />
+        <dex dex="/home/selgo/StudioProjects/Quick-Speak/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_dcda24be21ffadd845f85647acd71794846875b2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\petro\.android\build-cache\ad8b00e300b275def4dff27b410ee6c82874b80c\output\jars\classes.jar"
+        jar="/home/selgo/.android/build-cache/48dad78b655afc9c14afd71998f4c9ecbb23d2ee/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Users\petro\StudioProjects\Quick-Speak\app\build\intermediates\pre-dexed\debug\classes_6013d11bb6af78c4c64ffdea1253a648511f02c6.jar" />
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/selgo/StudioProjects/Quick-Speak/app/build/intermediates/pre-dexed/debug/classes_a1a97a016da331e3b28c61c5512ea57d6fd47992.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\petro\.android\build-cache\b9faccde2c00637bb94bf7fc0979637d8c2fa4af\output\jars\classes.jar"
+        jar="/home/selgo/.android/build-cache/80179baee6256aea811ac44af6f148cd7697dbe8/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Users\petro\StudioProjects\Quick-Speak\app\build\intermediates\pre-dexed\debug\classes_f0af583242ac6561477ef97feff844227d15a089.jar" />
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/selgo/StudioProjects/Quick-Speak/app/build/intermediates/pre-dexed/debug/classes_807b614d473b0ce4cf859b2c4fed811765f4cfd5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\petro\.android\build-cache\77f1e1af089429aaa6642616e604661a332df4f7\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Users\petro\StudioProjects\Quick-Speak\app\build\intermediates\pre-dexed\debug\classes_5c74eeeff4999bef4b9802918cd2f35ccf8ccbbd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\petro\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\petro\StudioProjects\Quick-Speak\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_0df208f865bbf6ea13e7bf690314651f5e900101.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\petro\.android\build-cache\4286b6193d891cfbac6c2b3681d930c912804486\output\jars\classes.jar"
+        jar="/home/selgo/.android/build-cache/9cdb845d0acbaa4c4bc848b6ddf2597e7bf8ab4d/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Users\petro\StudioProjects\Quick-Speak\app\build\intermediates\pre-dexed\debug\classes_2aee577ea44252f0ab5074cf1228415ab391d25c.jar" />
+        <dex dex="/home/selgo/StudioProjects/Quick-Speak/app/build/intermediates/pre-dexed/debug/classes_197f7bd822335abcafa2773b3fd157612ae50673.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\petro\.android\build-cache\43c28ce4d38cc4c7de720a4280f295dad2bf9f70\output\jars\classes.jar"
+        jar="/home/selgo/.android/build-cache/fbe6f0352ea4aee13b895b88098b5fff1bf26138/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/selgo/StudioProjects/Quick-Speak/app/build/intermediates/pre-dexed/debug/classes_95b756f91562a42a967a1ee0a551093029d96fc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/selgo/.android/build-cache/9a51d5a93a48a97bbc32581fc83438b06592c2e9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/selgo/StudioProjects/Quick-Speak/app/build/intermediates/pre-dexed/debug/classes_14a1035d652e3830f87eff8613becaaf4cf39566.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/selgo/.android/build-cache/3031d8b6b2e195c96b0d360ddc31c00673c09b94/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\petro\StudioProjects\Quick-Speak\app\build\intermediates\pre-dexed\debug\classes_6a65ceec495a457cd71b0af99a3cdd9d7163b48a.jar" />
+        <dex dex="/home/selgo/StudioProjects/Quick-Speak/app/build/intermediates/pre-dexed/debug/classes_0631ad660a26e6cfb09e1335b677a5c7057a4245.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/selgo/.android/build-cache/e25a10c7092d0337f854b23016287f80759f61ff/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/selgo/StudioProjects/Quick-Speak/app/build/intermediates/pre-dexed/debug/classes_241bd3e6abd464bc51c0cf5e2c28f202c9cb8326.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/selgo/.android/build-cache/37b1348fa0a4e15a61a923314c5636abe8c52f3a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/selgo/StudioProjects/Quick-Speak/app/build/intermediates/pre-dexed/debug/classes_8b3b3f00cfd6bb14711116900e76dcdf2aa446a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/selgo/.android/build-cache/c6804689d4c61b2b853f9aa111604b98cc204f64/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/selgo/StudioProjects/Quick-Speak/app/build/intermediates/pre-dexed/debug/classes_f95b0d98920d0d28c29c6e40c744779cf45a5ad1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/selgo/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/selgo/StudioProjects/Quick-Speak/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_4ea851511c7143699ccc96ab81dc01b76f7de402.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/selgo/.android/build-cache/f4b9eace1b5d919a6e8411be9b18302427a3a543/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/selgo/StudioProjects/Quick-Speak/app/build/intermediates/pre-dexed/debug/classes_0501c6c913ca1fc429f110ec2ec76fcf05c9bd31.jar" />
     </item>
 
 </items>

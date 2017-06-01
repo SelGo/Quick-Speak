@@ -9,24 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity
-            android:name=".TopLevelActivity">
+        <activity android:name=".TopLevelActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".EnglishWordsCategories"
             android:label="@string/english_language"
-            android:parentActivityName=".TopLevelActivity" >
-
+            android:parentActivityName=".TopLevelActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".TopLevelActivity" />
+        </activity>
+        <activity
+            android:name=".WordListContainer"
+            android:parentActivityName=".EnglishWordsCategories">
 
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EnglishWordsCategories" />
         </activity>
     </application>
 
