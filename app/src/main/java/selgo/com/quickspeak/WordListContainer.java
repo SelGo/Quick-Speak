@@ -5,6 +5,8 @@ import android.os.Bundle;
 
 public class WordListContainer extends AppCompatActivity {
 
+    public static final String WORD_ID = "id";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -13,6 +15,8 @@ public class WordListContainer extends AppCompatActivity {
 
         EnglishWordsFragment englishWordsFragment =
                 (EnglishWordsFragment) getFragmentManager().findFragmentById(R.id.english_list_frag);
+        int wordId = (int) getIntent().getExtras().get(WORD_ID);
+        englishWordsFragment.setWordId(wordId);
 
     }
 }

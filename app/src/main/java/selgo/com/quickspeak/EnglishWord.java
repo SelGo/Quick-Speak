@@ -67,6 +67,40 @@ public class EnglishWord {
             new EnglishWord("the bread", "το ψωμί")
     };
 
+    public static final EnglishWord[] basics2 = {
+            new EnglishWord("we", "Εμείς"),
+            new EnglishWord("they", "Αυτοί"),
+            new EnglishWord("the women", "οι γυναίκες"),
+            new EnglishWord("the men", "οι άντρες"),
+            new EnglishWord("we are", "(εμείς) είμαστε"),
+            new EnglishWord("the boys", "τα αγόρια"),
+            new EnglishWord("the girls", "τα κορίτσια"),
+            new EnglishWord("you", "Εσείς"),
+            new EnglishWord("you are", "(Εσείς) είσαστε"),
+            new EnglishWord("we drink", "(Εμείς) πίνουμε"),
+            new EnglishWord("you drink", "(Εσείς) πίνετε"),
+            new EnglishWord("they drink", "(Αυτοί) πίνουν"),
+            new EnglishWord("I read", "(Εγώ) διαβάζω"),
+            new EnglishWord("you read", "(Εσύ) διαβάζεις"),
+            new EnglishWord("he reads", "(Αυτός) διαβάζει"),
+            new EnglishWord("the book", "το βιβλιο"),
+            new EnglishWord("we read", "(εμείς) διαβάζουμε"),
+            new EnglishWord("you read", "(εσείς) διαβάζετε"),
+            new EnglishWord("they read", "(αυτοί) διαβάζουν"),
+            new EnglishWord("the newspaper", "Η εφημερίδα"),
+            new EnglishWord("I write", "(εγώ) γράφω"),
+            new EnglishWord("you write", "(εσύ) γράφεις"),
+            new EnglishWord("he writes", "(αυτός) γράφει"),
+            new EnglishWord("we write", "(εμείς) γράφουμε"),
+            new EnglishWord("you write", "(εσείς) γράφετε"),
+            new EnglishWord("they write", "(αυτοί) γράφουν"),
+            new EnglishWord("I have", "(εγώ) έχω"),
+            new EnglishWord("he has", "(αυτός) έχει"),
+            new EnglishWord("at", "στο (για μέρη)"),
+            new EnglishWord("in", "μέσα στο"),
+
+    };
+
     public String getEnglishWord() {
         return englishWord;
     }

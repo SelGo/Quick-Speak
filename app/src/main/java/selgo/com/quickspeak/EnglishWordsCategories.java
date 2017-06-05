@@ -14,6 +14,7 @@ public class EnglishWordsCategories extends AppCompatActivity {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             Intent englishWordsIntent = new Intent(EnglishWordsCategories.this, WordListContainer.class);
+            englishWordsIntent.putExtra(WordListContainer.WORD_ID, (int) id);
             startActivity(englishWordsIntent);
         }
     };
