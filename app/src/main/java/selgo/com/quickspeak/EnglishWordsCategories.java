@@ -10,11 +10,13 @@ import android.widget.ListView;
 
 public class EnglishWordsCategories extends AppCompatActivity {
 
+    private static String[] wordsCategories;
+
     AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             Intent englishWordsIntent = new Intent(EnglishWordsCategories.this, WordListContainer.class);
-            englishWordsIntent.putExtra(WordListContainer.WORD_ID, (int) id);
+            englishWordsIntent.putExtra("id", (int) id);
             startActivity(englishWordsIntent);
         }
     };
@@ -26,14 +28,16 @@ public class EnglishWordsCategories extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        String[] wordsCategories;
+
         wordsCategories = getResources().getStringArray(R.array.english_words_categories);
 
         ListView categories = (ListView) findViewById(R.id.english_category_list);
         categories.setOnItemClickListener(itemClickListener);
         ArrayAdapter<String> categoriesAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, wordsCategories);
         categories.setAdapter(categoriesAdapter);
+    }
 
-
+    public static String[] getWordsCategories() {
+        return wordsCategories;
     }
 }
