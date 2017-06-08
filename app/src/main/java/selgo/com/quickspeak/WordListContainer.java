@@ -41,7 +41,7 @@ public class WordListContainer extends AppCompatActivity {
                 getSupportActionBar().setTitle(R.string.app_name);
                 break;
         }
-        
+
         englishWordsFragment.setWordId(wordId);
 
     }

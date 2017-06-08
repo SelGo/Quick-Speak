@@ -76,6 +76,70 @@ public class EnglishWordsFragment extends ListFragment {
             wordValues = null;
             words = null;
         }
+
+        if (this.getWordId() == 3) {
+            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.phrases));
+
+            for (int i = 0; i < words.size(); i++) {
+                wordValues.add(words.get(i).getEnglishWord());
+            }
+
+            ArrayAdapter<String> adapter = new ArrayAdapter<String>(view.getContext(),
+                    android.R.layout.simple_list_item_1,
+                    wordValues);
+
+            setListAdapter(adapter);
+            wordValues = null;
+            words = null;
+        }
+
+        if (this.getWordId() == 4) {
+            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.food));
+
+            for (int i = 0; i < words.size(); i++) {
+                wordValues.add(words.get(i).getEnglishWord());
+            }
+
+            ArrayAdapter<String> adapter = new ArrayAdapter<String>(view.getContext(),
+                    android.R.layout.simple_list_item_1,
+                    wordValues);
+
+            setListAdapter(adapter);
+            wordValues = null;
+            words = null;
+        }
+
+        if (this.getWordId() == 5) {
+            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.plurals));
+
+            for (int i = 0; i < words.size(); i++) {
+                wordValues.add(words.get(i).getEnglishWord());
+            }
+
+            ArrayAdapter<String> adapter = new ArrayAdapter<String>(view.getContext(),
+                    android.R.layout.simple_list_item_1,
+                    wordValues);
+
+            setListAdapter(adapter);
+            wordValues = null;
+            words = null;
+        }
+
+        if (this.getWordId() == 6) {
+            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.animals));
+
+            for (int i = 0; i < words.size(); i++) {
+                wordValues.add(words.get(i).getEnglishWord());
+            }
+
+            ArrayAdapter<String> adapter = new ArrayAdapter<String>(view.getContext(),
+                    android.R.layout.simple_list_item_1,
+                    wordValues);
+
+            setListAdapter(adapter);
+            wordValues = null;
+            words = null;
+        }
     }
 
     public long getWordId() {
