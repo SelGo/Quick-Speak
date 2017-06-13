@@ -36,11 +36,9 @@ public class EnglishWordsFragment extends ListFragment {
                 wordValues.add(words.get(i).getEnglishWord());
             }
 
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(view.getContext(),
-                    android.R.layout.simple_list_item_1,
-                    wordValues);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words);
 
-            setListAdapter(adapter);
+            setListAdapter(wordAdapter);
             wordValues = null;
             words = null;
         }
@@ -52,11 +50,10 @@ public class EnglishWordsFragment extends ListFragment {
                 wordValues.add(words.get(i).getEnglishWord());
             }
 
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(view.getContext(),
-                    android.R.layout.simple_list_item_1,
-                    wordValues);
 
-            setListAdapter(adapter);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words);
+
+            setListAdapter(wordAdapter);
             wordValues = null;
             words = null;
         }
@@ -68,11 +65,9 @@ public class EnglishWordsFragment extends ListFragment {
                 wordValues.add(words.get(i).getEnglishWord());
             }
 
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(view.getContext(),
-                    android.R.layout.simple_list_item_1,
-                    wordValues);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words);
 
-            setListAdapter(adapter);
+            setListAdapter(wordAdapter);
             wordValues = null;
             words = null;
         }
@@ -84,11 +79,9 @@ public class EnglishWordsFragment extends ListFragment {
                 wordValues.add(words.get(i).getEnglishWord());
             }
 
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(view.getContext(),
-                    android.R.layout.simple_list_item_1,
-                    wordValues);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words);
 
-            setListAdapter(adapter);
+            setListAdapter(wordAdapter);
             wordValues = null;
             words = null;
         }
@@ -100,11 +93,9 @@ public class EnglishWordsFragment extends ListFragment {
                 wordValues.add(words.get(i).getEnglishWord());
             }
 
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(view.getContext(),
-                    android.R.layout.simple_list_item_1,
-                    wordValues);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words);
 
-            setListAdapter(adapter);
+            setListAdapter(wordAdapter);
             wordValues = null;
             words = null;
         }
@@ -116,11 +107,9 @@ public class EnglishWordsFragment extends ListFragment {
                 wordValues.add(words.get(i).getEnglishWord());
             }
 
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(view.getContext(),
-                    android.R.layout.simple_list_item_1,
-                    wordValues);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words);
 
-            setListAdapter(adapter);
+            setListAdapter(wordAdapter);
             wordValues = null;
             words = null;
         }
@@ -132,11 +121,9 @@ public class EnglishWordsFragment extends ListFragment {
                 wordValues.add(words.get(i).getEnglishWord());
             }
 
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(view.getContext(),
-                    android.R.layout.simple_list_item_1,
-                    wordValues);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words);
 
-            setListAdapter(adapter);
+            setListAdapter(wordAdapter);
             wordValues = null;
             words = null;
         }
