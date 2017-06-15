@@ -2,6 +2,7 @@ package selgo.com.quickspeak;
 
 import android.content.Context;
 
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,8 +14,15 @@ import java.util.ArrayList;
 
 public class WordAdapter extends ArrayAdapter<EnglishWord>{
 
+    private int colorResourceId;
+
     public WordAdapter(Context context, ArrayList<EnglishWord> words) {
         super(context, 0, words);
+    }
+
+    public WordAdapter(Context context, ArrayList<EnglishWord> words, int colorResourceId) {
+        super(context, 0, words);
+        this.colorResourceId = colorResourceId;
     }
 
     @Override
@@ -32,6 +40,10 @@ public class WordAdapter extends ArrayAdapter<EnglishWord>{
 
         TextView translatedWordText = (TextView) englishWordListView.findViewById(R.id.translated_word);
         translatedWordText.setText(englishWord.getTranslatedWord());
+
+        View textContainer = englishWordListView.findViewById(R.id.word_container);
+        int color = ContextCompat.getColor(getContext(), this.colorResourceId);
+        textContainer.setBackgroundColor(color);
 
         return englishWordListView;
     }

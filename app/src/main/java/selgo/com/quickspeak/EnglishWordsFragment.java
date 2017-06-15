@@ -36,7 +36,7 @@ public class EnglishWordsFragment extends ListFragment {
                 wordValues.add(words.get(i).getEnglishWord());
             }
 
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.theAlphabetBackgroundColor);
 
             setListAdapter(wordAdapter);
             wordValues = null;
@@ -51,7 +51,7 @@ public class EnglishWordsFragment extends ListFragment {
             }
 
 
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.basics1BackgroundColor);
 
             setListAdapter(wordAdapter);
             wordValues = null;
@@ -65,7 +65,7 @@ public class EnglishWordsFragment extends ListFragment {
                 wordValues.add(words.get(i).getEnglishWord());
             }
 
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.basics2BackgroundColor);
 
             setListAdapter(wordAdapter);
             wordValues = null;
@@ -79,7 +79,7 @@ public class EnglishWordsFragment extends ListFragment {
                 wordValues.add(words.get(i).getEnglishWord());
             }
 
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.phrasesBackgroundColor);
 
             setListAdapter(wordAdapter);
             wordValues = null;
@@ -93,7 +93,7 @@ public class EnglishWordsFragment extends ListFragment {
                 wordValues.add(words.get(i).getEnglishWord());
             }
 
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.foodBackgroundColor);
 
             setListAdapter(wordAdapter);
             wordValues = null;
@@ -107,7 +107,7 @@ public class EnglishWordsFragment extends ListFragment {
                 wordValues.add(words.get(i).getEnglishWord());
             }
 
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.pluralsBackgroundColor);
 
             setListAdapter(wordAdapter);
             wordValues = null;
@@ -121,7 +121,7 @@ public class EnglishWordsFragment extends ListFragment {
                 wordValues.add(words.get(i).getEnglishWord());
             }
 
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.animalsBackgroundColor);
 
             setListAdapter(wordAdapter);
             wordValues = null;
