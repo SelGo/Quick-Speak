@@ -1,6 +1,9 @@
 package selgo.com.quickspeak;
 
+import android.app.ActionBar;
 import android.app.ListFragment;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -30,6 +33,8 @@ public class EnglishWordsFragment extends ListFragment {
         View view = getView();
 
         if (this.getWordId() == 0) {
+
+
             words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.theAlphabet));
 
             for (int i = 0; i < words.size(); i++) {
