@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EnglishWordsCategories"
+            android:name=".EnglishCategory"
             android:label="@string/english_language"
             android:parentActivityName=".TopLevelActivity">
             <meta-data
@@ -26,11 +26,11 @@
         </activity>
         <activity
             android:name=".WordListContainer"
-            android:parentActivityName=".EnglishWordsCategories">
+            android:parentActivityName=".EnglishCategory">
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".EnglishWordsCategories" />
+                android:value=".EnglishCategory" />
         </activity>
     </application>
 

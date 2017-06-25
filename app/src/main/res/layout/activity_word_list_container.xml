@@ -8,7 +8,7 @@
     tools:context="selgo.com.quickspeak.WordListContainer">
 
     <fragment
-        class="selgo.com.quickspeak.EnglishWordsFragment"
+        class="selgo.com.quickspeak.EnglishWordFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/english_list_frag"

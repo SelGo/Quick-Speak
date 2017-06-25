@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="selgo.com.quickspeak.EnglishWordsCategories">
+    tools:context="selgo.com.quickspeak.EnglishCategory">
 
     <TextView
         android:layout_width="match_parent"

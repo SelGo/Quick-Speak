@@ -1,6 +1,5 @@
 package selgo.com.quickspeak;
 
-import android.app.ActionBar;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
@@ -8,14 +7,16 @@ import android.os.Bundle;
 
 public class WordListContainer extends AppCompatActivity {
 
-    private String[] titles = EnglishWordsCategories.getWordsCategories();
+    private String[] titles = EnglishCategory.getWordsCategories();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_word_list_container);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        EnglishWordsFragment englishWordsFragment =
-                (EnglishWordsFragment) getFragmentManager().findFragmentById(R.id.english_list_frag);
+
+        EnglishWordFragment englishWordFragment =
+                (EnglishWordFragment) getFragmentManager().findFragmentById(R.id.english_list_frag);
         int wordId = (int) getIntent().getExtras().get("id");
 
         switch (wordId) {
@@ -53,7 +54,7 @@ public class WordListContainer extends AppCompatActivity {
                 break;
         }
 
-        englishWordsFragment.setWordId(wordId);
+        englishWordFragment.setWordId(wordId);
 
     }
 }
