@@ -41,9 +41,9 @@ public class EnglishWordFragment extends Fragment {
         }
 
         if (this.getWordId() == 1) {
-            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.basics1));
+            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.numbers));
 
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.basics1BackgroundColor);
+            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.numbersBackgroundColor);
             GridView gridView = (GridView) view.findViewById(R.id.english_word_grid);
             gridView.setAdapter(wordAdapter);
 

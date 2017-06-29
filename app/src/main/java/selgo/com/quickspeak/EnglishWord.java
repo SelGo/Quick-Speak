@@ -43,28 +43,18 @@ public class EnglishWord {
             new EnglishWord("Z z")
     };
 
-    public static final EnglishWord[] basics1 = {
-            new EnglishWord("I", "Εγώ"),
-            new EnglishWord("the boy", "το αγόρι"),
-            new EnglishWord("the girl", "το κορίτσι"),
-            new EnglishWord("the man", "ο άντρας"),
-            new EnglishWord("the woman", "η γυναίκα"),
-            new EnglishWord("I am", "(εγώ) είμαι"),
-            new EnglishWord("the apple", "το μήλο"),
-            new EnglishWord("he eats", "(αυτός) τρώει"),
-            new EnglishWord("he", "αυτός"),
-            new EnglishWord("she", "αυτή"),
-            new EnglishWord("he is", "(αυτός) είναι"),
-            new EnglishWord("you", "εσύ"),
-            new EnglishWord("the", "το"),
-            new EnglishWord("I drink", "(εγώ) πίνω"),
-            new EnglishWord("you drink", "(εσύ) πίνεις"),
-            new EnglishWord("he drinks", "(αυτός) πίνει"),
-            new EnglishWord("I eat", "(εγω) τρώω"),
-            new EnglishWord("you eat", "(εσύ) τρώς"),
-            new EnglishWord("the water", "το νερό"),
-            new EnglishWord("the sugar", "η ζάχαρη"),
-            new EnglishWord("the bread", "το ψωμί")
+    public static final EnglishWord[] numbers = {
+            new EnglishWord("0 zero", "μηδέν"),
+            new EnglishWord("1 one", "ένα"),
+            new EnglishWord("2 two", "δύο"),
+            new EnglishWord("3 three", "τρία"),
+            new EnglishWord("4 four", "τέσσερα"),
+            new EnglishWord("5 five", "πέντε"),
+            new EnglishWord("6 six", "έξι"),
+            new EnglishWord("7 seven", "εφτά"),
+            new EnglishWord("8 eight", "οχτώ"),
+            new EnglishWord("9 nine", "εννέα"),
+            new EnglishWord("10 ten", "δέκα")
     };
 
     public static final EnglishWord[] basics2 = {
