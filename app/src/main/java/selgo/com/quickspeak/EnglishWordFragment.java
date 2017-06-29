@@ -31,7 +31,7 @@ public class EnglishWordFragment extends Fragment {
 
         if (this.getWordId() == 0) {
 
-            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.theAlphabet));
+            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.theEnglishAlphabet));
 
             WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.theAlphabetBackgroundColor);
 

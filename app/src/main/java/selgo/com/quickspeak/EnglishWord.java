@@ -14,7 +14,7 @@ public class EnglishWord {
         this.translatedWord = translatedWord;
     }
 
-    public static final EnglishWord[] theAlphabet = {
+    public static final EnglishWord[] theEnglishAlphabet = {
             new EnglishWord("A a"),
             new EnglishWord("B b"),
             new EnglishWord("C c"),

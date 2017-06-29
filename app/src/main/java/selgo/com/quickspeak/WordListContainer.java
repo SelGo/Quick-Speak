@@ -21,7 +21,7 @@ public class WordListContainer extends AppCompatActivity {
 
         switch (wordId) {
             case 0:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#039BE5")));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#2196F3")));
                 getSupportActionBar().setTitle(titles[0]);
                 break;
             case 1:
