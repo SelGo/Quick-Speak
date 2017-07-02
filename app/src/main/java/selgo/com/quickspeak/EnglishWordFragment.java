@@ -65,91 +65,31 @@ public class EnglishWordFragment extends Fragment {
         View view = getView();
 
         if (this.getWordId() == 0) {
-
-            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.theEnglishAlphabet));
-
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.theAlphabetBackgroundColor);
-
-            GridView gridView = (GridView) view.findViewById(R.id.english_word_grid);
-            gridView.setAdapter(wordAdapter);
-
-            gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    releasePlayer();
-                    EnglishWord englishWord = words.get(position);
-                    int audioResult = audioManager.requestAudioFocus(onAudioFocusChangeListener, AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
-
-                    if(audioResult == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
-                        mediaPlayer = MediaPlayer.create(getActivity(), englishWord.getAudioId());
-                        mediaPlayer.start();
-                        mediaPlayer.setOnCompletionListener(completionListener);
-                    }
-                }
-            });
+            layoutSetup(view, EnglishWord.theEnglishAlphabet, R.color.theAlphabetBackgroundColor);
         }
 
         if (this.getWordId() == 1) {
-            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.numbers));
-
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.numbersBackgroundColor);
-            GridView gridView = (GridView) view.findViewById(R.id.english_word_grid);
-            gridView.setAdapter(wordAdapter);
-
-            gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    releasePlayer();
-                    EnglishWord englishWord = words.get(position);
-                    int audioResult = audioManager.requestAudioFocus(onAudioFocusChangeListener, AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
-
-                    if(audioResult == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
-                        mediaPlayer = MediaPlayer.create(getActivity(), englishWord.getAudioId());
-                        mediaPlayer.start();
-                        mediaPlayer.setOnCompletionListener(completionListener);
-                    }
-                }
-            });
+            layoutSetup(view, EnglishWord.numbers, R.color.numbersBackgroundColor);
         }
 
         if (this.getWordId() == 2) {
-            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.basics2));
-
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.basics2BackgroundColor);
-            GridView gridView = (GridView) view.findViewById(R.id.english_word_grid);
-            gridView.setAdapter(wordAdapter);
+            layoutSetup(view, EnglishWord.basics2, R.color.basics2BackgroundColor);
         }
 
         if (this.getWordId() == 3) {
-            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.phrases));
-
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.phrasesBackgroundColor);
-            GridView gridView = (GridView) view.findViewById(R.id.english_word_grid);
-            gridView.setAdapter(wordAdapter);
+            layoutSetup(view, EnglishWord.phrases, R.color.phrasesBackgroundColor);
         }
 
         if (this.getWordId() == 4) {
-            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.food));
-
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.foodBackgroundColor);
-            GridView gridView = (GridView) view.findViewById(R.id.english_word_grid);
-            gridView.setAdapter(wordAdapter);
+            layoutSetup(view, EnglishWord.food, R.color.foodBackgroundColor);
         }
 
         if (this.getWordId() == 5) {
-            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.plurals));
-
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.pluralsBackgroundColor);
-            GridView gridView = (GridView) view.findViewById(R.id.english_word_grid);
-            gridView.setAdapter(wordAdapter);
+            layoutSetup(view, EnglishWord.plurals, R.color.pluralsBackgroundColor);
         }
 
         if (this.getWordId() == 6) {
-            words = new ArrayList<EnglishWord>(Arrays.asList(EnglishWord.animals));
-
-            WordAdapter wordAdapter = new WordAdapter(getActivity(), words, R.color.animalsBackgroundColor);
-            GridView gridView = (GridView) view.findViewById(R.id.english_word_grid);
-            gridView.setAdapter(wordAdapter);
+            layoutSetup(view, EnglishWord.animals, R.color.animalsBackgroundColor);
         }
     }
 
@@ -165,5 +105,30 @@ public class EnglishWordFragment extends Fragment {
 
     public void setWordId(long wordId) {
         this.wordId = wordId;
+    }
+
+    public void layoutSetup(View view, final EnglishWord[] array, int colorId){
+
+        words = new ArrayList<EnglishWord>(Arrays.asList(array));
+
+        WordAdapter wordAdapter = new WordAdapter(getActivity(), words, colorId);
+
+        GridView gridView = (GridView) view.findViewById(R.id.english_word_grid);
+        gridView.setAdapter(wordAdapter);
+
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                releasePlayer();
+                EnglishWord englishWord = words.get(position);
+                int audioResult = audioManager.requestAudioFocus(onAudioFocusChangeListener, AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
+
+                if(audioResult == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
+                    mediaPlayer = MediaPlayer.create(getActivity(), englishWord.getAudioId());
+                    mediaPlayer.start();
+                    mediaPlayer.setOnCompletionListener(completionListener);
+                }
+            }
+        });
     }
 }

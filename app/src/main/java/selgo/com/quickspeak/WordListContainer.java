@@ -1,6 +1,5 @@
 package selgo.com.quickspeak;
 
-import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -29,23 +28,23 @@ public class WordListContainer extends AppCompatActivity {
                 getSupportActionBar().setTitle(titles[1]);
                 break;
             case 2:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.numbersBackgroundColor)));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.basics2BackgroundColor)));
                 getSupportActionBar().setTitle(titles[2]);
                 break;
             case 3:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.numbersBackgroundColor)));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.phrasesBackgroundColor)));
                 getSupportActionBar().setTitle(titles[3]);
                 break;
             case 4:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.numbersBackgroundColor)));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.foodBackgroundColor)));
                 getSupportActionBar().setTitle(titles[4]);
                 break;
             case 5:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.numbersBackgroundColor)));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.pluralsBackgroundColor)));
                 getSupportActionBar().setTitle(titles[5]);
                 break;
             case 6:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.numbersBackgroundColor)));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.animalsBackgroundColor)));
                 getSupportActionBar().setTitle(titles[6]);
                 break;
             default:
