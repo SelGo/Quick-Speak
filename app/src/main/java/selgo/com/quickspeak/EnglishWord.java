@@ -4,6 +4,7 @@ package selgo.com.quickspeak;
 public class EnglishWord {
     private String englishWord;
     private String translatedWord;
+    private int audioId;
 
     public EnglishWord(String englishWord) {
         this.englishWord = englishWord;
@@ -14,47 +15,58 @@ public class EnglishWord {
         this.translatedWord = translatedWord;
     }
 
+    public EnglishWord(String englishWord, String translatedWord, int audioId) {
+        this.englishWord = englishWord;
+        this.translatedWord = translatedWord;
+        this.audioId = audioId;
+    }
+
+    public EnglishWord(String englishWord, int audioId) {
+        this.englishWord = englishWord;
+        this.audioId = audioId;
+    }
+
     public static final EnglishWord[] theEnglishAlphabet = {
-            new EnglishWord("A a"),
-            new EnglishWord("B b"),
-            new EnglishWord("C c"),
-            new EnglishWord("D d"),
-            new EnglishWord("E e"),
-            new EnglishWord("F f"),
-            new EnglishWord("G g"),
-            new EnglishWord("H h"),
-            new EnglishWord("I i"),
-            new EnglishWord("J j"),
-            new EnglishWord("K k"),
-            new EnglishWord("L l"),
-            new EnglishWord("M m"),
-            new EnglishWord("N n"),
-            new EnglishWord("O o"),
-            new EnglishWord("P p"),
-            new EnglishWord("Q q"),
-            new EnglishWord("R r"),
-            new EnglishWord("S s"),
-            new EnglishWord("T t"),
-            new EnglishWord("U u"),
-            new EnglishWord("V v"),
-            new EnglishWord("W w"),
-            new EnglishWord("X x"),
-            new EnglishWord("Y y"),
-            new EnglishWord("Z z")
+            new EnglishWord("A a", R.raw.a),
+            new EnglishWord("B b", R.raw.b),
+            new EnglishWord("C c", R.raw.c),
+            new EnglishWord("D d", R.raw.d),
+            new EnglishWord("E e", R.raw.e),
+            new EnglishWord("F f", R.raw.f),
+            new EnglishWord("G g", R.raw.g),
+            new EnglishWord("H h", R.raw.h),
+            new EnglishWord("I i", R.raw.i),
+            new EnglishWord("J j", R.raw.j),
+            new EnglishWord("K k", R.raw.k),
+            new EnglishWord("L l", R.raw.l),
+            new EnglishWord("M m", R.raw.m),
+            new EnglishWord("N n", R.raw.n),
+            new EnglishWord("O o", R.raw.o),
+            new EnglishWord("P p", R.raw.p),
+            new EnglishWord("Q q", R.raw.q),
+            new EnglishWord("R r", R.raw.r),
+            new EnglishWord("S s", R.raw.s),
+            new EnglishWord("T t", R.raw.t),
+            new EnglishWord("U u", R.raw.u),
+            new EnglishWord("V v", R.raw.v),
+            new EnglishWord("W w", R.raw.w),
+            new EnglishWord("X x", R.raw.x),
+            new EnglishWord("Y y", R.raw.y),
+            new EnglishWord("Z z", R.raw.z)
     };
 
     public static final EnglishWord[] numbers = {
-            new EnglishWord("0 zero", "μηδέν"),
-            new EnglishWord("1 one", "ένα"),
-            new EnglishWord("2 two", "δύο"),
-            new EnglishWord("3 three", "τρία"),
-            new EnglishWord("4 four", "τέσσερα"),
-            new EnglishWord("5 five", "πέντε"),
-            new EnglishWord("6 six", "έξι"),
-            new EnglishWord("7 seven", "εφτά"),
-            new EnglishWord("8 eight", "οχτώ"),
-            new EnglishWord("9 nine", "εννέα"),
-            new EnglishWord("10 ten", "δέκα")
+            new EnglishWord("0 zero", "μηδέν", R.raw.zero),
+            new EnglishWord("1 one", "ένα", R.raw.one),
+            new EnglishWord("2 two", "δύο", R.raw.two),
+            new EnglishWord("3 three", "τρία", R.raw.three),
+            new EnglishWord("4 four", "τέσσερα", R.raw.four),
+            new EnglishWord("5 five", "πέντε", R.raw.five),
+            new EnglishWord("6 six", "έξι", R.raw.six),
+            new EnglishWord("7 seven", "εφτά", R.raw.seven),
+            new EnglishWord("8 eight", "οχτώ", R.raw.eight),
+            new EnglishWord("9 nine", "εννέα", R.raw.nine),
+            new EnglishWord("10 ten", "δέκα", R.raw.ten)
     };
 
     public static final EnglishWord[] basics2 = {
@@ -215,7 +227,7 @@ public class EnglishWord {
         return translatedWord;
     }
 
-
-
-
+    public int getAudioId() {
+        return audioId;
+    }
 }

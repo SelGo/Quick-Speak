@@ -29,27 +29,27 @@ public class WordListContainer extends AppCompatActivity {
                 getSupportActionBar().setTitle(titles[1]);
                 break;
             case 2:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#F44336")));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.numbersBackgroundColor)));
                 getSupportActionBar().setTitle(titles[2]);
                 break;
             case 3:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#689F38")));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.numbersBackgroundColor)));
                 getSupportActionBar().setTitle(titles[3]);
                 break;
             case 4:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#689F38")));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.numbersBackgroundColor)));
                 getSupportActionBar().setTitle(titles[4]);
                 break;
             case 5:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#558B2F")));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.numbersBackgroundColor)));
                 getSupportActionBar().setTitle(titles[5]);
                 break;
             case 6:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#0277BD")));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.numbersBackgroundColor)));
                 getSupportActionBar().setTitle(titles[6]);
                 break;
             default:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#039BE5")));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.numbersBackgroundColor)));
                 getSupportActionBar().setTitle(R.string.app_name);
                 break;
         }
