@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.GridView;
+import android.widget.ListView;
 
 
 import java.util.ArrayList;
@@ -73,11 +73,11 @@ public class EnglishWordFragment extends Fragment {
         }
 
         if (this.getWordId() == 2) {
-            layoutSetup(view, EnglishWord.basics2, R.color.basics2BackgroundColor);
+            layoutSetup(view, EnglishWord.lesson1, R.color.lessonOneBackgroundColor);
         }
 
         if (this.getWordId() == 3) {
-            layoutSetup(view, EnglishWord.phrases, R.color.phrasesBackgroundColor);
+            layoutSetup(view, EnglishWord.lesson2, R.color.lessonTwoBackgroundColor);
         }
 
         if (this.getWordId() == 4) {
@@ -113,10 +113,11 @@ public class EnglishWordFragment extends Fragment {
 
         WordAdapter wordAdapter = new WordAdapter(getActivity(), words, colorId);
 
-        GridView gridView = (GridView) view.findViewById(R.id.english_word_grid);
-        gridView.setAdapter(wordAdapter);
 
-        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        ListView listView = (ListView) view.findViewById(R.id.english_word_list);
+        listView.setAdapter(wordAdapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 releasePlayer();

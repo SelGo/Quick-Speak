@@ -28,11 +28,11 @@ public class WordListContainer extends AppCompatActivity {
                 getSupportActionBar().setTitle(titles[1]);
                 break;
             case 2:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.basics2BackgroundColor)));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.lessonOneBackgroundColor)));
                 getSupportActionBar().setTitle(titles[2]);
                 break;
             case 3:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.phrasesBackgroundColor)));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.lessonTwoBackgroundColor)));
                 getSupportActionBar().setTitle(titles[3]);
                 break;
             case 4:

@@ -69,51 +69,32 @@ public class EnglishWord {
             new EnglishWord("10 ten", "δέκα", R.raw.ten)
     };
 
-    public static final EnglishWord[] basics2 = {
-            new EnglishWord("we", "Εμείς"),
-            new EnglishWord("they", "Αυτοί"),
-            new EnglishWord("the women", "οι γυναίκες"),
-            new EnglishWord("the men", "οι άντρες"),
-            new EnglishWord("we are", "(εμείς) είμαστε"),
-            new EnglishWord("the boys", "τα αγόρια"),
-            new EnglishWord("the girls", "τα κορίτσια"),
-            new EnglishWord("you", "Εσείς"),
-            new EnglishWord("you are", "(Εσείς) είσαστε"),
-            new EnglishWord("we drink", "(Εμείς) πίνουμε"),
-            new EnglishWord("you drink", "(Εσείς) πίνετε"),
-            new EnglishWord("they drink", "(Αυτοί) πίνουν"),
-            new EnglishWord("I read", "(Εγώ) διαβάζω"),
-            new EnglishWord("you read", "(Εσύ) διαβάζεις"),
-            new EnglishWord("he reads", "(Αυτός) διαβάζει"),
-            new EnglishWord("the book", "το βιβλιο"),
-            new EnglishWord("we read", "(εμείς) διαβάζουμε"),
-            new EnglishWord("you read", "(εσείς) διαβάζετε"),
-            new EnglishWord("they read", "(αυτοί) διαβάζουν"),
-            new EnglishWord("the newspaper", "Η εφημερίδα"),
-            new EnglishWord("I write", "(εγώ) γράφω"),
-            new EnglishWord("you write", "(εσύ) γράφεις"),
-            new EnglishWord("he writes", "(αυτός) γράφει"),
-            new EnglishWord("we write", "(εμείς) γράφουμε"),
-            new EnglishWord("you write", "(εσείς) γράφετε"),
-            new EnglishWord("they write", "(αυτοί) γράφουν"),
-            new EnglishWord("I have", "(εγώ) έχω"),
-            new EnglishWord("he has", "(αυτός) έχει"),
-            new EnglishWord("at", "στο (για μέρη)"),
-            new EnglishWord("in", "μέσα στο"),
+    public static final EnglishWord[] lesson1 = {
+            new EnglishWord("I am / I'm", "εγώ είμαι", R.raw.i_am_im),
+            new EnglishWord("you are / you're", "εσύ είσαι", R.raw.you_are_youre),
+            new EnglishWord("he is / he's", "αυτός είναι", R.raw.he_is_hes),
+            new EnglishWord("she is / she's", "αυτή είναι", R.raw.she_is_shes),
+            new EnglishWord("it is / it's", "αυτό είναι", R.raw.it_is_its),
+            new EnglishWord("are not / aren't", "δεν είναι (πλυθυντικός)", R.raw.are_not_arent),
+            new EnglishWord("is not / isn't", "δεν είναι (ενικός)", R.raw.is_not_isnt),
+            new EnglishWord("who", "ποιος/α", R.raw.who),
+            new EnglishWord("what", "τι", R.raw.what),
+            new EnglishWord("what is / what's", "τι είναι", R.raw.what_is_whats),
+            new EnglishWord("who is / who's", "ποιός/α είναι", R.raw.who_is_whos),
+            new EnglishWord("a / an", "ένας / μία / ένα", R.raw.a_an),
     };
 
-    public static final EnglishWord[] phrases = {
-            new EnglishWord("hello", "γειά"),
-            new EnglishWord("goodbye", "αντίο"),
-            new EnglishWord("yes", "ναί"),
-            new EnglishWord("no", "όχι"),
-            new EnglishWord("not", "δεν"),
-            new EnglishWord("good morning", "καλημέρα"),
-            new EnglishWord("good evening", "καληνύχτα"),
-            new EnglishWord("thank you", "ευχαριστώ"),
-            new EnglishWord("you are welcome", "παρακαλώ"),
-            new EnglishWord("please", "παρακαλώ (ζήτηση)"),
-            new EnglishWord("sorry", "συγνώμη")
+    public static final EnglishWord[] lesson2 = {
+            new EnglishWord("hello / hi", "γειά", R.raw.hello_hi),
+            new EnglishWord("goodbye / bye", "αντίο", R.raw.goodbye_bye),
+            new EnglishWord("good morning", "καλημέρα", R.raw.good_morning),
+            new EnglishWord("good evening", "καλησπέρα", R.raw.good_evening),
+            new EnglishWord("good night", "καληνύχτα", R.raw.good_night),
+            new EnglishWord("thank you", "ευχαριστώ", R.raw.thank_you),
+            new EnglishWord("how are you?", "πώς εισαι; / τι κανείς;", R.raw.how_are_you),
+            new EnglishWord("fine", "καλά", R.raw.fine),
+            new EnglishWord("yes", "ναι", R.raw.yes),
+            new EnglishWord("no", "όχι", R.raw.no)
     };
 
     public static final EnglishWord[] food = {

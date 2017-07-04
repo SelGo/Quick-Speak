@@ -4,16 +4,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <GridView
-        android:id="@+id/english_word_grid"
-        android:padding="2dp"
+    <ListView
+        android:id="@+id/english_word_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:numColumns="2"
-        android:columnWidth="100dp"
-        android:verticalSpacing="2dp"
-        android:horizontalSpacing="2dp"
-        android:stretchMode="columnWidth">
-    </GridView>
+        android:layout_height="match_parent">
+    </ListView>
 
 </LinearLayout>

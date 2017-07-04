@@ -6,8 +6,8 @@
 
     <color name="theAlphabetBackgroundColor">#2196F3</color>
     <color name="numbersBackgroundColor">#2196F3</color>
-    <color name="basics2BackgroundColor">#F44336</color>
-    <color name="phrasesBackgroundColor">#689F38</color>
+    <color name="lessonOneBackgroundColor">#3F51B5</color>
+    <color name="lessonTwoBackgroundColor">#3F51B5</color>
     <color name="foodBackgroundColor">#689F38</color>
     <color name="pluralsBackgroundColor">#558B2F</color>
     <color name="animalsBackgroundColor">#0277BD</color>
