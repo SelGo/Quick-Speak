@@ -12,5 +12,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/english_list_frag"
-        tools:layout="@android:layout/simple_list_item_1"/>
+        tools:layout="@layout/english_word_fragment_layout"/>
 </LinearLayout>

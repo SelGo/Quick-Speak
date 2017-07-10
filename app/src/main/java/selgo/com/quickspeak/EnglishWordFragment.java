@@ -80,17 +80,6 @@ public class EnglishWordFragment extends Fragment {
             layoutSetup(view, EnglishWord.lesson2, R.color.lessonTwoBackgroundColor);
         }
 
-        if (this.getWordId() == 4) {
-            layoutSetup(view, EnglishWord.food, R.color.foodBackgroundColor);
-        }
-
-        if (this.getWordId() == 5) {
-            layoutSetup(view, EnglishWord.plurals, R.color.pluralsBackgroundColor);
-        }
-
-        if (this.getWordId() == 6) {
-            layoutSetup(view, EnglishWord.animals, R.color.animalsBackgroundColor);
-        }
     }
 
     @Override

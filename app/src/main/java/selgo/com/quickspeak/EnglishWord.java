@@ -6,15 +6,6 @@ public class EnglishWord {
     private String translatedWord;
     private int audioId;
 
-    public EnglishWord(String englishWord) {
-        this.englishWord = englishWord;
-    }
-
-    public EnglishWord(String englishWord, String translatedWord) {
-        this.englishWord = englishWord;
-        this.translatedWord = translatedWord;
-    }
-
     public EnglishWord(String englishWord, String translatedWord, int audioId) {
         this.englishWord = englishWord;
         this.translatedWord = translatedWord;
@@ -26,33 +17,38 @@ public class EnglishWord {
         this.audioId = audioId;
     }
 
+    public EnglishWord(String englishWord, String translatedWord) {
+        this.englishWord = englishWord;
+        this.translatedWord = translatedWord;
+    }
+
     public static final EnglishWord[] theEnglishAlphabet = {
-            new EnglishWord("A a", R.raw.a),
-            new EnglishWord("B b", R.raw.b),
-            new EnglishWord("C c", R.raw.c),
-            new EnglishWord("D d", R.raw.d),
-            new EnglishWord("E e", R.raw.e),
-            new EnglishWord("F f", R.raw.f),
-            new EnglishWord("G g", R.raw.g),
-            new EnglishWord("H h", R.raw.h),
-            new EnglishWord("I i", R.raw.i),
-            new EnglishWord("J j", R.raw.j),
-            new EnglishWord("K k", R.raw.k),
-            new EnglishWord("L l", R.raw.l),
-            new EnglishWord("M m", R.raw.m),
-            new EnglishWord("N n", R.raw.n),
-            new EnglishWord("O o", R.raw.o),
-            new EnglishWord("P p", R.raw.p),
-            new EnglishWord("Q q", R.raw.q),
-            new EnglishWord("R r", R.raw.r),
-            new EnglishWord("S s", R.raw.s),
-            new EnglishWord("T t", R.raw.t),
-            new EnglishWord("U u", R.raw.u),
-            new EnglishWord("V v", R.raw.v),
-            new EnglishWord("W w", R.raw.w),
-            new EnglishWord("X x", R.raw.x),
-            new EnglishWord("Y y", R.raw.y),
-            new EnglishWord("Z z", R.raw.z)
+            new EnglishWord("A", "a", R.raw.a),
+            new EnglishWord("B", "b", R.raw.b),
+            new EnglishWord("C", "c", R.raw.c),
+            new EnglishWord("D", "d", R.raw.d),
+            new EnglishWord("E", "e", R.raw.e),
+            new EnglishWord("F", "f", R.raw.f),
+            new EnglishWord("G", "g", R.raw.g),
+            new EnglishWord("H", "h", R.raw.h),
+            new EnglishWord("I", "i", R.raw.i),
+            new EnglishWord("J", "j", R.raw.j),
+            new EnglishWord("K", "k", R.raw.k),
+            new EnglishWord("L", "l", R.raw.l),
+            new EnglishWord("M", "m", R.raw.m),
+            new EnglishWord("N", "n", R.raw.n),
+            new EnglishWord("O", "o", R.raw.o),
+            new EnglishWord("P", "p", R.raw.p),
+            new EnglishWord("Q", "q", R.raw.q),
+            new EnglishWord("R", "r", R.raw.r),
+            new EnglishWord("S", "s", R.raw.s),
+            new EnglishWord("T", "t", R.raw.t),
+            new EnglishWord("U", "u", R.raw.u),
+            new EnglishWord("V", "v", R.raw.v),
+            new EnglishWord("W", "w", R.raw.w),
+            new EnglishWord("X", "x", R.raw.x),
+            new EnglishWord("Y", "y", R.raw.y),
+            new EnglishWord("Z", "z", R.raw.z)
     };
 
     public static final EnglishWord[] numbers = {
@@ -63,10 +59,60 @@ public class EnglishWord {
             new EnglishWord("4 four", "τέσσερα", R.raw.four),
             new EnglishWord("5 five", "πέντε", R.raw.five),
             new EnglishWord("6 six", "έξι", R.raw.six),
-            new EnglishWord("7 seven", "εφτά", R.raw.seven),
-            new EnglishWord("8 eight", "οχτώ", R.raw.eight),
+            new EnglishWord("7 seven", "επτά", R.raw.seven),
+            new EnglishWord("8 eight", "οκτώ", R.raw.eight),
             new EnglishWord("9 nine", "εννέα", R.raw.nine),
-            new EnglishWord("10 ten", "δέκα", R.raw.ten)
+            new EnglishWord("10 ten", "δέκα", R.raw.ten),
+            new EnglishWord("11 eleven", "έντεκα", R.raw.eleven),
+            new EnglishWord("12 twelve", "δώδεκα", R.raw.twelve),
+            new EnglishWord("13 thirteen", "δέκα-τρια", R.raw.thirteen),
+            new EnglishWord("14 fourteen", "δεκα-τέσσερα", R.raw.fourteen),
+            new EnglishWord("15 fifteen", "δεκα-πέντε", R.raw.fifteen),
+            new EnglishWord("16 sixteen", "δεκα-έξι", R.raw.sixteen),
+            new EnglishWord("17 seventeen", "δεκα-έπτα", R.raw.seventeen),
+            new EnglishWord("18 eighteen", "δεκα-οκτω", R.raw.eighteen),
+            new EnglishWord("19 nineteen", "δεκα-εννέα", R.raw.nineteen),
+            new EnglishWord("20 twenty", "είκοσι", R.raw.twenty),
+            new EnglishWord("21 twenty-one", "είκοσι-ένα", R.raw.twenty_one),
+            new EnglishWord("22 twenty-two", "είκοσι-δύο", R.raw.twenty_two),
+            new EnglishWord("23 twenty-three", "είκοσι-τρία", R.raw.twenty_three),
+            new EnglishWord("24 twenty-four", "είκοσι-τέσσερα", R.raw.twenty_four),
+            new EnglishWord("25 twenty-five", "είκοσι-πεντε", R.raw.twenty_five),
+            new EnglishWord("26 twenty-six", "είκοσι-έξι", R.raw.twenty_six),
+            new EnglishWord("27 twenty-seven", "είκοσι-επτά", R.raw.twenty_seven),
+            new EnglishWord("28 twenty-eight", "είκοσι-οκτώ", R.raw.twenty_eight),
+            new EnglishWord("29 twenty-nine", "είκοσι-εννέα", R.raw.twenty_nine),
+            new EnglishWord("30 thirty", "τριάντα", R.raw.thirty),
+            new EnglishWord("31 thirty-one", "τριάντα-ένα", R.raw.thirty_one),
+            new EnglishWord("32 thirty-two", "τριάντα-δύο", R.raw.thirty_two),
+            new EnglishWord("33 thirty-three", "τριάντα-τρία", R.raw.thirty_three),
+            new EnglishWord("34 thirty-four", "τριάντα-τέσσερα", R.raw.thirty_four),
+            new EnglishWord("35 thirty-five", "τριαντα-πέντε", R.raw.thirty_five),
+            new EnglishWord("36 thirty-six", "τριάντα-έξι", R.raw.thirty_six),
+            new EnglishWord("37 thirty-seven", "τριάντα-επτά", R.raw.thirty_seven),
+            new EnglishWord("38 thirty-eight", "τριάντα-οκτώ", R.raw.thirty_eight),
+            new EnglishWord("39 thirty-nine", "τριάντα-εννέα", R.raw.thirty_nine),
+            new EnglishWord("40 forty", "σαράντα", R.raw.forty),
+            new EnglishWord("41 forty-one", "σαραντα-ένα", R.raw.forty_one),
+            new EnglishWord("42 forty-two", "σαράντα-δύο", R.raw.forty_two),
+            new EnglishWord("43 forty-three", "σαράντα-τρία", R.raw.forty_three),
+            new EnglishWord("44 forty-four", "σαράντα-τέσσερα", R.raw.forty_four),
+            new EnglishWord("45 forty-five", "σαράντα-πέντε", R.raw.forty_five),
+            new EnglishWord("46 forty-six", "σαράντα-έξι", R.raw.forty_six),
+            new EnglishWord("47 forty-seven", "σαράντα-επτά", R.raw.forty_seven),
+            new EnglishWord("48 forty-eight", "σαράντα-οκτώ", R.raw.forty_eight),
+            new EnglishWord("49 forty-nine", "σαράντα-εννεά", R.raw.forty_nine),
+            new EnglishWord("50 fifty", "πενήντα", R.raw.fifty),
+            new EnglishWord("51 fifty-one", "πενήντα-ένα", R.raw.fifty_one),
+            new EnglishWord("52 fifty-two", "πενήντα-δύο", R.raw.fifty_two),
+            new EnglishWord("53 fifty-three", "πενήντα-τρία", R.raw.fifty_three),
+            new EnglishWord("54 fifty-four", "πενήντα-τέσσερα", R.raw.fifty_four),
+            new EnglishWord("55 fifty-five", "πενήντα-πέντε", R.raw.fifty_five),
+            new EnglishWord("56 fifty-six", "πενήντα-έξι", R.raw.fifty_six),
+            new EnglishWord("57 fifty-seven", "πενήντα-επτά", R.raw.fifty_seven),
+            new EnglishWord("58 fifty-eight", "πενήντα-οκτώ", R.raw.fifty_eight),
+            new EnglishWord("59 fifty-nine", "πενήντα-εννέα", R.raw.fifty_nine),
+            new EnglishWord("60 sixty", "εξήντα", R.raw.sixty)
     };
 
     public static final EnglishWord[] lesson1 = {
@@ -95,109 +141,6 @@ public class EnglishWord {
             new EnglishWord("fine", "καλά", R.raw.fine),
             new EnglishWord("yes", "ναι", R.raw.yes),
             new EnglishWord("no", "όχι", R.raw.no)
-    };
-
-    public static final EnglishWord[] food = {
-            new EnglishWord("the coffee", "ο καφές"),
-            new EnglishWord("the milk", "το γάλα"),
-            new EnglishWord("the cream", "η κρέμα"),
-            new EnglishWord("the chocolate", "η σοκολάτα"),
-            new EnglishWord("the cookie", "το μπισκότο"),
-            new EnglishWord("the cup", "το φλιτζάνι"),
-            new EnglishWord("the ice cream", "το παγωτό"),
-            new EnglishWord("the food", "το φαγητό"),
-            new EnglishWord("the fruit", "το φρούτο"),
-            new EnglishWord("the banana", "η μπανάνα"),
-            new EnglishWord("the candy", "η καραμέλα"),
-            new EnglishWord("the carrot", "το καρότο"),
-            new EnglishWord("the dish", "το πιάτο"),
-            new EnglishWord("the bean", "το φασόλι"),
-            new EnglishWord("the beef", "το βοδινό"),
-            new EnglishWord("the beer", "η μπύρα"),
-            new EnglishWord("the bottle", "το μπουκάλι"),
-            new EnglishWord("the bowl", "το μπώλ"),
-            new EnglishWord("the breakfast", "το πρωινό"),
-            new EnglishWord("the butter", "το βούτυρο"),
-            new EnglishWord("the cake", "το κέικ"),
-            new EnglishWord("the cheese", "το τυρί"),
-            new EnglishWord("the chicken", "το κοτόπουλο"),
-            new EnglishWord("the cook", "ο μάγειρας"),
-            new EnglishWord("the dinner", "το δείπνο"),
-            new EnglishWord("the drink", "το ποτό"),
-            new EnglishWord("the egg", "το αυγό"),
-            new EnglishWord("the fish", "το ψάρι"),
-            new EnglishWord("the fork", "το πιρούνι"),
-            new EnglishWord("fried", "τηγανιτό"),
-            new EnglishWord("the garlic", "το σκόρδο"),
-            new EnglishWord("the glass", "το ποτήρι"),
-            new EnglishWord("the grapes", "το σταφύλι"),
-            new EnglishWord("we eat", "(εμείς) τρώμε"),
-            new EnglishWord("you eat", "(εσείς) τρώτε"),
-            new EnglishWord("they eat", "(αυτοί) τρώνε"),
-            new EnglishWord("it boils", "(αυτό) βράζει"),
-            new EnglishWord("I cook", "(εγώ) μαγειρεύω"),
-            new EnglishWord("he cooks", "(αυτός) μαγειρεύει"),
-            new EnglishWord("I cut", "(εγώ) κόβω"),
-            new EnglishWord("he cuts", "(αυτός) κόβει")
-    };
-
-    public static final EnglishWord[] plurals = {
-            new EnglishWord("the books", "τα βιβλία"),
-            new EnglishWord("the animals", "τα ζώα"),
-            new EnglishWord("the newspapers", "οι εφημερίδες"),
-            new EnglishWord("the horses", "τα άλογα"),
-            new EnglishWord("the fishes", "τα ψάρια"),
-            new EnglishWord("the dishes", "τα πιάτα"),
-            new EnglishWord("the cats", "οι γατες"),
-            new EnglishWord("the birds", "τα πουλιά"),
-            new EnglishWord("the bottles", "τα μπουκάλια"),
-            new EnglishWord("the glasses", "τα ποτήρια"),
-            new EnglishWord("the cooks", "οι μάγειρες"),
-            new EnglishWord("the insects", "τα έντομα"),
-            new EnglishWord("the apples", "τα μήλα"),
-            new EnglishWord("the cakes", "τα κέικ"),
-            new EnglishWord("the butterflies", "οι πεταλούδες"),
-            new EnglishWord("the cows", "οι αγελάδες"),
-            new EnglishWord("the bananas", "οι μπανάνες"),
-            new EnglishWord("the chickens", "τα κοτόπουλα"),
-            new EnglishWord("the cookies", "τα μπισκότα"),
-            new EnglishWord("the elephants", "οι ελέφαντες"),
-            new EnglishWord("the candies", "οι καραμέλες"),
-            new EnglishWord("the forks", "τα πιρούνια"),
-            new EnglishWord("the dogs", "οι σκύλοι / τα σκυλιά"),
-            new EnglishWord("the sandwiches", "τα σαντουίτς"),
-            new EnglishWord("to", "στα")
-    };
-
-    public static final EnglishWord[] animals = {
-            new EnglishWord("the animal", "το ζώο"),
-            new EnglishWord("the cat", "η γάτα"),
-            new EnglishWord("the dog", "το σκυλί"),
-            new EnglishWord("the bird", "το πουλί"),
-            new EnglishWord("the horse", "το άλογο"),
-            new EnglishWord("the ape", "ο πίθηκος"),
-            new EnglishWord("the mouse", "το ποντίκι"),
-            new EnglishWord("the lion", "το λιοντάρι"),
-            new EnglishWord("the ant", "το μυρμηγκί"),
-            new EnglishWord("the bear", "η αρκούδα"),
-            new EnglishWord("the bee", "η μέλισσα"),
-            new EnglishWord("the butterfly", "η πεταλούδα"),
-            new EnglishWord("the cow", "η αγελάδα"),
-            new EnglishWord("the dolphin", "το δελφίνι"),
-            new EnglishWord("the duck", "η πάπια"),
-            new EnglishWord("the elephant", "ο ελέφαντας"),
-            new EnglishWord("the fly", "η μύγα"),
-            new EnglishWord("the insect", "το έντομο"),
-            new EnglishWord("the shark", "ο καρχαρίας"),
-            new EnglishWord("the snake", "το φίδι"),
-            new EnglishWord("the spider", "η αράχνη"),
-            new EnglishWord("the tiger", "η τίγρης"),
-            new EnglishWord("the turtle", "η χελώνα"),
-            new EnglishWord("the whale", "η φάλαινα"),
-            new EnglishWord("the wolf", "ο λύκος"),
-            new EnglishWord("the zoo", "ο ζωολογικός κήπος"),
-            new EnglishWord("the bull", "το ταύρος"),
-            new EnglishWord("the penguin", "ο πιγκουίνος")
     };
 
     public String getEnglishWord() {

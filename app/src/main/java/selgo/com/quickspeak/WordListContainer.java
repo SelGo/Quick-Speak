@@ -27,28 +27,8 @@ public class WordListContainer extends AppCompatActivity {
                 getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.numbersBackgroundColor)));
                 getSupportActionBar().setTitle(titles[1]);
                 break;
-            case 2:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.lessonOneBackgroundColor)));
-                getSupportActionBar().setTitle(titles[2]);
-                break;
-            case 3:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.lessonTwoBackgroundColor)));
-                getSupportActionBar().setTitle(titles[3]);
-                break;
-            case 4:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.foodBackgroundColor)));
-                getSupportActionBar().setTitle(titles[4]);
-                break;
-            case 5:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.pluralsBackgroundColor)));
-                getSupportActionBar().setTitle(titles[5]);
-                break;
-            case 6:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.animalsBackgroundColor)));
-                getSupportActionBar().setTitle(titles[6]);
-                break;
             default:
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.numbersBackgroundColor)));
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.lessonOneBackgroundColor)));
                 getSupportActionBar().setTitle(R.string.app_name);
                 break;
         }
