@@ -201,7 +201,7 @@ public class EnglishWord {
             new EnglishWord("cauliflower", "κουνουπίδι", R.raw.cauliflower)
     };
 
-    public static final EnglishWord[] lesson2 = {
+    public static final EnglishWord[] greetingsAndIntroductions = {
             new EnglishWord("hello / hi", "γειά", R.raw.hello_hi),
             new EnglishWord("goodbye / bye", "αντίο", R.raw.goodbye_bye),
             new EnglishWord("good morning", "καλημέρα", R.raw.good_morning),
@@ -211,7 +211,18 @@ public class EnglishWord {
             new EnglishWord("how are you?", "πώς εισαι; / τι κανείς;", R.raw.how_are_you),
             new EnglishWord("fine", "καλά", R.raw.fine),
             new EnglishWord("yes", "ναι", R.raw.yes),
-            new EnglishWord("no", "όχι", R.raw.no)
+            new EnglishWord("no", "όχι", R.raw.no),
+            new EnglishWord("How's it going?", "Πώς πάει?", R.raw.hows_it_going),
+            new EnglishWord("Merry Christmas", "Καλά Χριστούγεννα", R.raw.merry_christmas),
+            new EnglishWord("Happy Easter", "Καλό Πάσχα", R.raw.happy_easter),
+            new EnglishWord("Happy New Year", "Καλή Χρονιά", R.raw.happy_new_year),
+            new EnglishWord("get well soon", "Περαστικά", R.raw.get_well_soon),
+            new EnglishWord("good luck", "Καλή τύχη", R.raw.good_luck),
+            new EnglishWord("congratulations", "Συγχαρητήρια", R.raw.congratulations),
+            new EnglishWord("pleased to meet you", "Χάρηκα για τη γνωριμία", R.raw.pleased_to_meet_you),
+            new EnglishWord("meet", "γνωρίζω / συναντώ", R.raw.meet),
+            new EnglishWord("introduce (someone) to (somebody)", "συστήνω (κάποιον/α) σε (έναν/μία)", R.raw.pleased_to_meet_you),
+            new EnglishWord("know", "ξέρω / γνωρίζω", R.raw.know)
     };
 
     public String getEnglishWord() {

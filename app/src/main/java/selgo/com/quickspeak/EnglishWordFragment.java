@@ -77,7 +77,7 @@ public class EnglishWordFragment extends Fragment {
         }
 
         if (this.getWordId() == 3) {
-            layoutSetup(view, EnglishWord.lesson2, R.color.lessonTwoBackgroundColor);
+            layoutSetup(view, EnglishWord.greetingsAndIntroductions, R.color.greetingsAndIntroductionsBackgroundColor);
         }
 
     }

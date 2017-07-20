@@ -31,13 +31,15 @@ public class WordListContainer extends AppCompatActivity {
                 getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.fruitsAndVegetablesBackgroundColor)));
                 getSupportActionBar().setTitle(titles[2]);
                 break;
+            case 3:
+                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.greetingsAndIntroductionsBackgroundColor)));
+                getSupportActionBar().setTitle(titles[3]);
+                break;
             default:
                 getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.theAlphabetBackgroundColor)));
                 getSupportActionBar().setTitle(R.string.app_name);
                 break;
         }
-
         englishWordFragment.setWordId(wordId);
-
     }
 }
