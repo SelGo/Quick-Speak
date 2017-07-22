@@ -80,6 +80,11 @@ public class EnglishWordFragment extends Fragment {
             layoutSetup(view, EnglishWord.greetingsAndIntroductions, R.color.greetingsAndIntroductionsBackgroundColor);
         }
 
+        if(this.getWordId() == 4) {
+            layoutSetup(view, EnglishWord.basicWords, R.color.basicWordsBackgroundColor);
+        }
+
+
     }
 
     @Override

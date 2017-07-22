@@ -225,6 +225,23 @@ public class EnglishWord {
             new EnglishWord("know", "ξέρω / γνωρίζω", R.raw.know)
     };
 
+    public static final EnglishWord[] basicWords = {
+            new EnglishWord("I am / I'm", "εγώ είμαι", R.raw.i_am_im),
+            new EnglishWord("you are / you're", "εσύ είσαι", R.raw.you_are_youre),
+            new EnglishWord("he is / he's", "αυτός είναι", R.raw.he_is_hes),
+            new EnglishWord("she is / she's", "αυτή είναι", R.raw.she_is_shes),
+            new EnglishWord("it is / it's", "αυτό είναι", R.raw.it_is_its),
+            new EnglishWord("are not / aren't", "δεν είναι (πλυθυντικός)", R.raw.are_not_arent),
+            new EnglishWord("is not / isn't", "δεν είναι (ενικός)", R.raw.is_not_isnt),
+            new EnglishWord("who", "ποιος/α", R.raw.who),
+            new EnglishWord("what", "τι", R.raw.what),
+            new EnglishWord("what is / what's", "τι είναι", R.raw.what_is_whats),
+            new EnglishWord("who is / who's", "ποιός/α είναι", R.raw.who_is_whos),
+            new EnglishWord("a / an", "ένας / μία / ένα", R.raw.a_an),
+            new EnglishWord("can", "μπορώ / μπορείς / μπορεί", R.raw.can),
+            new EnglishWord("will", "θα", R.raw.will)
+    };
+
     public String getEnglishWord() {
         return englishWord;
     }
