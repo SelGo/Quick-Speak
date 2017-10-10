@@ -84,6 +84,9 @@ public class EnglishWordFragment extends Fragment {
             layoutSetup(view, EnglishWord.basicWords, R.color.basicWordsBackgroundColor);
         }
 
+        if(this.getWordId() == 5) {
+            layoutSetup(view, EnglishWord.colors, R.color.colorsBackgroundColor);
+        }
 
     }
 
@@ -106,7 +109,6 @@ public class EnglishWordFragment extends Fragment {
         words = new ArrayList<EnglishWord>(Arrays.asList(array));
 
         WordAdapter wordAdapter = new WordAdapter(getActivity(), words, colorId);
-
 
         ListView listView = (ListView) view.findViewById(R.id.english_word_list);
         listView.setAdapter(wordAdapter);

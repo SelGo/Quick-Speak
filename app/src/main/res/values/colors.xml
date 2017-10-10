@@ -11,4 +11,5 @@
     <color name="basicWordsBackgroundColor">#0D47A1</color>
     <color name="pluralsBackgroundColor">#558B2F</color>
     <color name="animalsBackgroundColor">#0277BD</color>
+    <color name="colorsBackgroundColor">#01579B</color>
 </resources>

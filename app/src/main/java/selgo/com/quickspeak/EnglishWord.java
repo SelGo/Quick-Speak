@@ -242,6 +242,23 @@ public class EnglishWord {
             new EnglishWord("will", "θα", R.raw.will)
     };
 
+
+    public static final EnglishWord[] colors = {
+            new EnglishWord("White", "Άσπρο", R.raw.white),
+            new EnglishWord("Green", "Πράσινο", R.raw.green),
+            new EnglishWord("Yellow", "Κίτρινο", R.raw.yellow),
+            new EnglishWord("Blue", "Μπλέ", R.raw.blue),
+            new EnglishWord("Orange", "Πορτοκαλί", R.raw.orange),
+            new EnglishWord("Red", "Κόκκινο", R.raw.red),
+            new EnglishWord("Brown", "Καφέ", R.raw.brown),
+            new EnglishWord("Pink", "Ροζ", R.raw.pink),
+            new EnglishWord("Black", "Μαύρο", R.raw.black),
+            new EnglishWord("Purple", "Μώβ", R.raw.purple),
+            new EnglishWord("Grey", "Γκρί", R.raw.grey),
+            new EnglishWord("Light", "Ανοιχτό", R.raw.light),
+            new EnglishWord("Dark", "Σκούρο", R.raw.dark)
+    };
+
     public String getEnglishWord() {
         return englishWord;
     }
