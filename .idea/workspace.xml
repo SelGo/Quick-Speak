@@ -7,36 +7,219 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ee020dc-5e42-4a5c-9e5b-92446b2051e8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/raw/eight_nine.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fifthteen.mp3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/constraint_layout_1_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/constraint_layout_1_0_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/a.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/a.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/a_an.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/a_an.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/apple.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/apple.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/apricot.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/apricot.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/are_not_arent.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/are_not_arent.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/avocado.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/avocado.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/b.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/b.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/banana.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/banana.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/bean.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/bean.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/blueberry.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/blueberry.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/broccoli.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/broccoli.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/c.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/c.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/cabbage.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/cabbage.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/can.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/can.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/carrot.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/carrot.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/cauliflower.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/cauliflower.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/cherry.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/cherry.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/coconut.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/coconut.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/congratulations.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/congratulations.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/corn.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/corn.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/d.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/d.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/e.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/e.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/eight.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/eight.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighteen.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/eighteen.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/eighty.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_eight.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/eighty_eight.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_five.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/eighty_five.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_four.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/eighty_four.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_one.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/eighty_one.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_seven.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/eighty_seven.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_six.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/eighty_six.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_three.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/eighty_three.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_two.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/eighty_two.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/eleven.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/eleven.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/f.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/f.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fifty.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_eight.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fifty_eight.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_five.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fifty_five.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_four.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fifty_four.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_nine.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fifty_nine.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_one.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fifty_one.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_seven.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fifty_seven.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_six.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fifty_six.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_three.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fifty_three.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_two.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fifty_two.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/fig.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fig.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/fine.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fine.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/five.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/five.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/forty.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_eight.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/forty_eight.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_five.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/forty_five.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_four.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/forty_four.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_nine.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/forty_nine.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_one.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/forty_one.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_seven.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/forty_seven.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_six.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/forty_six.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_three.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/forty_three.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_two.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/forty_two.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/four.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/four.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/fourteen.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/fourteen.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/g.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/g.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/garlic.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/garlic.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/get_well_soon.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/get_well_soon.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/good_evening.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/good_evening.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/good_luck.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/good_luck.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/good_morning.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/good_morning.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/good_night.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/good_night.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/goodbye_bye.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/goodbye_bye.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/grape.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/grape.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/grapefruit.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/grapefruit.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/h.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/h.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/happy_easter.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/happy_easter.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/happy_new_year.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/happy_new_year.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/he_is_hes.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/he_is_hes.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/hello_hi.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/hello_hi.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/how_are_you.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/how_are_you.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/hows_it_going.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/hows_it_going.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/i.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/i.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/i_am_im.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/i_am_im.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/introduce_someone_to_somebody.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/introduce_someone_to_somebody.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/is_not_isnt.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/is_not_isnt.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/it_is_its.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/it_is_its.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/j.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/j.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/k.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/k.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/kiwi.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/kiwi.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/know.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/know.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/l.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/l.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/lemon.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/lemon.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/lettuce.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/lettuce.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/lime.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/lime.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/m.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/m.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/mandarin.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/mandarin.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/mango.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/mango.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/meet.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/meet.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/melon.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/melon.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/merry_christmas.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/merry_christmas.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/mushroom.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/mushroom.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/n.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/n.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/nine.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/nine.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/nineteen.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/nineteen.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/ninety.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_eight.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/ninety_eight.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_five.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/ninety_five.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_four.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/ninety_four.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_nine.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/ninety_nine.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_one.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/ninety_one.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_seven.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/ninety_seven.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_six.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/ninety_six.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_three.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/ninety_three.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_two.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/ninety_two.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/no.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/no.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/o.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/o.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/one.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/one.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/one_hundred.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/one_hundred.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/onion.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/onion.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/orange.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/orange.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/p.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/p.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/papaya.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/papaya.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/peach.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/peach.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/pear.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/pear.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/peas.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/peas.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/pepper.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/pepper.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/pineapple.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/pineapple.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/pleased_to_meet_you.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/pleased_to_meet_you.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/plum.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/plum.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/pomegranate.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/pomegranate.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/potato.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/potato.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/pumpkin.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/pumpkin.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/q.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/q.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/quince.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/quince.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/r.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/r.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/raspberry.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/raspberry.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/s.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/s.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/seven.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/seven.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventeen.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/seventeen.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/seventy.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_eight.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/seventy_eight.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_five.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/seventy_five.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_four.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/seventy_four.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_nine.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/seventy_nine.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_one.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/seventy_one.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_seven.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/seventy_seven.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_six.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/seventy_six.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_three.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/seventy_three.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_two.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/seventy_two.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/she_is_shes.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/she_is_shes.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/six.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/six.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixteen.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/sixteen.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/sixty.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_eight.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/sixty_eight.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_five.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/sixty_five.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_four.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/sixty_four.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_nine.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/sixty_nine.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_one.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/sixty_one.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_seven.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/sixty_seven.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_six.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/sixty_six.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_three.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/sixty_three.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_two.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/sixty_two.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/spinach.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/spinach.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/strawberry.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/strawberry.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/t.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/t.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/ten.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/ten.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/thank_you.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/thank_you.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirteen.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/thirteen.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/thirty.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_eight.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/thirty_eight.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_five.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/thirty_five.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_four.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/thirty_four.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_nine.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/thirty_nine.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_one.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/thirty_one.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_seven.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/thirty_seven.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_six.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/thirty_six.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_three.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/thirty_three.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_two.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/thirty_two.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/three.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/three.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/tomato.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/tomato.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/twelve.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/twelve.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/twenty.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_eight.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/twenty_eight.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_five.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/twenty_five.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_four.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/twenty_four.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_nine.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/twenty_nine.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_one.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/twenty_one.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_seven.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/twenty_seven.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_six.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/twenty_six.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_three.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/twenty_three.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_two.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/twenty_two.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/two.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/two.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/u.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/u.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/v.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/v.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/w.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/w.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/watermelon.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/watermelon.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/what.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/what.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/what_is_whats.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/what_is_whats.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/who.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/who.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/who_is_whos.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/who_is_whos.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/will.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/will.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/x.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/x.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/y.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/y.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/yes.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/yes.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/you_are_youre.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/you_are_youre.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/z.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/z.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/raw/zero.mp3" afterPath="$PROJECT_DIR$/app/src/main/res/raw/zero.mp3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWord.java" afterPath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWordFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWordFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/WordListContainer.java" afterPath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/WordListContainer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="Quick-Speak.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +254,7 @@
       <file leaf-file-name="EnglishCategory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishCategory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="204">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#1523#1524#0" expanded="true" />
@@ -84,8 +267,8 @@
       <file leaf-file-name="EnglishWord.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="258" column="43" selection-start-line="258" selection-start-column="43" selection-end-line="258" selection-end-column="43" />
+            <state relative-caret-position="204">
+              <caret line="246" column="47" selection-start-line="246" selection-start-column="47" selection-end-line="246" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -104,7 +287,7 @@
       <file leaf-file-name="WordListContainer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/WordListContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
+            <state relative-caret-position="306">
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
@@ -114,7 +297,7 @@
       <file leaf-file-name="EnglishWordFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWordFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="1088">
               <caret line="87" column="79" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="79" />
               <folding>
                 <element signature="method#releasePlayer#0;class#EnglishWordFragment#0" expanded="false" />
@@ -2026,6 +2209,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2124,12 +2310,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quick-Speak" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quick-Speak" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2140,6 +2353,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\selgo\StudioProjects\Quick-Speak\app\src\main\res\raw" />
       <recent name="C:\Users\SelGo\Desktop\Quick-Speak\app\src\main\res\raw" />
     </key>
   </component>
@@ -2470,7 +2684,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-8" width="1311" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258786" sideWeight="0.48441246" order="7" side_tool="false" content_ui="tabs" />
@@ -2479,14 +2693,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3258786" sideWeight="0.5155875" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33653077" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32747602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8305369" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63258785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2470024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2470024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2499,6 +2712,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33653077" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2866,7 +3080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2877,7 +3090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2888,7 +3100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2910,7 +3121,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishCategory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="204">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#1523#1524#0" expanded="true" />
@@ -2921,7 +3132,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWordFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="1088">
           <caret line="87" column="79" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="79" />
           <folding>
             <element signature="method#releasePlayer#0;class#EnglishWordFragment#0" expanded="false" />
@@ -2933,7 +3144,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/WordListContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
+        <state relative-caret-position="306">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
@@ -2941,8 +3152,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="258" column="43" selection-start-line="258" selection-start-column="43" selection-end-line="258" selection-end-column="43" />
+        <state relative-caret-position="204">
+          <caret line="246" column="47" selection-start-line="246" selection-start-column="47" selection-end-line="246" selection-end-column="47" />
           <folding />
         </state>
       </provider>

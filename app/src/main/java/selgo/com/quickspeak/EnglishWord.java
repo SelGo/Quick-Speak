@@ -221,7 +221,7 @@ public class EnglishWord {
             new EnglishWord("congratulations", "Συγχαρητήρια", R.raw.congratulations),
             new EnglishWord("pleased to meet you", "Χάρηκα για τη γνωριμία", R.raw.pleased_to_meet_you),
             new EnglishWord("meet", "γνωρίζω / συναντώ", R.raw.meet),
-            new EnglishWord("introduce (someone) to (somebody)", "συστήνω (κάποιον/α) σε (έναν/μία)", R.raw.pleased_to_meet_you),
+            new EnglishWord("introduce (someone) to (somebody)", "συστήνω (κάποιον/α) σε (έναν/μία)", R.raw.introduce_someone_to_somebody),
             new EnglishWord("know", "ξέρω / γνωρίζω", R.raw.know)
     };
 
@@ -244,6 +244,7 @@ public class EnglishWord {
 
 
     public static final EnglishWord[] colors = {
+            new EnglishWord("Color", "Χρώμα", R.raw.color),
             new EnglishWord("White", "Άσπρο", R.raw.white),
             new EnglishWord("Green", "Πράσινο", R.raw.green),
             new EnglishWord("Yellow", "Κίτρινο", R.raw.yellow),
