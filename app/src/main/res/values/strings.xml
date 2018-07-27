@@ -4,7 +4,7 @@
     <string name="language_choice">Επιλέξτε Γλώσσα</string>
     <string name="english_category_choice">Επιλέξτε Κατηγορία</string>
 
-    <string-array name="english_words_categories">
+    <string-array name="english_word_categories">
         <item>Το Αγγλικό Αλφάβητο</item>
         <item>Οι Αριθμοί 1 εώς 100</item>
         <item>Φρούτα και Λαχανικά</item>

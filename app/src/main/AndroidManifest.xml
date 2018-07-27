@@ -12,7 +12,6 @@
         <activity android:name=".TopLevelActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -20,17 +19,17 @@
             android:name=".EnglishCategory"
             android:label="@string/english_language"
             android:parentActivityName=".TopLevelActivity">
-            <meta-data
+<!--            <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".TopLevelActivity" />
+                android:value=".TopLevelActivity" />-->
         </activity>
         <activity
             android:name=".WordListContainer"
             android:parentActivityName=".EnglishCategory">
 
-            <meta-data
+<!--            <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".EnglishCategory" />
+                android:value=".EnglishCategory" />-->
         </activity>
     </application>
 
