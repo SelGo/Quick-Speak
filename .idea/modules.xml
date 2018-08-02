@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Quick-Speak.iml" filepath="$PROJECT_DIR$/Quick-Speak.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-speak.iml" filepath="$PROJECT_DIR$/quick-speak.iml" />
     </modules>
   </component>
 </project>

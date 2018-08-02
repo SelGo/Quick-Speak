@@ -1,19 +1,21 @@
 <resources>
     <string name="app_name">Quick Speak</string>
-    <string name="english_language">Αγγλικά</string>
-    <string name="language_choice">Επιλέξτε Γλώσσα</string>
-    <string name="english_category_choice">Επιλέξτε Κατηγορία</string>
+    <string name="english_language">English</string>
+    <string name="language_choice">Choose Language</string>
+    <string name="english_category_choice">Choose a Category</string>
 
-    <string-array name="english_word_categories">
-        <item>Το Αγγλικό Αλφάβητο</item>
-        <item>Οι Αριθμοί 1 εώς 100</item>
-        <item>Φρούτα και Λαχανικά</item>
-        <item>Φράσεις και Ευχές</item>
-        <item>Βασικές Λέξεις</item>
-        <item>Τα Χρώματα</item>
-        <item>Ζώα</item>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Italian</item>
     </string-array>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="english_word_categories">
+        <item>The Alphabet</item>
+        <item>Greetings and Introductions</item>
+        <item>Basic Words and Phrases</item>
+        <item>Basic Feeling Words</item>
+        <item>Basic Food Words</item>
+        <item>Words About Likes</item>
+        <item>Basic Origin Words</item>
+    </string-array>
 </resources>

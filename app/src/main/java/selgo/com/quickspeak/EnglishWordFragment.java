@@ -1,29 +1,34 @@
 package selgo.com.quickspeak;
 
 import android.app.Fragment;
+import android.app.ListFragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import java.util.ArrayList;
+import android.widget.ArrayAdapter;
 
-public class EnglishWordFragment extends Fragment {
-
-    private long wordId;
-    private ArrayList<EnglishWord> words;
+public class EnglishWordFragment extends ListFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.english_word_fragment_layout, container, false);
-    }
+        
+        int position = getActivity().getIntent().getExtras().getInt("position");
+        ArrayAdapter<EnglishWord> adapter;
+        ArrayAdapter<String> adapterDefault;
 
-    public long getWordId() {
-        return wordId;
-    }
+        switch(position) {
+            case 0:
+                adapter = new ArrayAdapter<>(inflater.getContext(), android.R.layout.simple_list_item_1, EnglishWord.theAlphabet);
+                setListAdapter(adapter);
+                break;
+            default:
+                adapterDefault = new ArrayAdapter<>(inflater.getContext(), android.R.layout.simple_list_item_1, EnglishWord.arrayDefault);
+                setListAdapter(adapterDefault);
+                break;
+        }
 
-    public void setWordId(long wordId) {
-        this.wordId = wordId;
+        return super.onCreateView(inflater, container, savedInstanceState);
     }
-
 }

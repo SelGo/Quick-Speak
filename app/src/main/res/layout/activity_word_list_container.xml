@@ -11,6 +11,6 @@
         class="selgo.com.quickspeak.EnglishWordFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/english_list_frag"
-        tools:layout="@layout/english_word_fragment_layout"/>
+        android:id="@+id/english_list_frag" />
+
 </LinearLayout>

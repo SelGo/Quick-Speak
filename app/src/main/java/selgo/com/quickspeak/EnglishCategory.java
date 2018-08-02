@@ -2,6 +2,7 @@ package selgo.com.quickspeak;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -16,7 +17,7 @@ public class EnglishCategory extends Activity {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             Intent englishWordsIntent = new Intent(EnglishCategory.this, WordListContainer.class);
-            englishWordsIntent.putExtra("id", (int) id);
+            englishWordsIntent.putExtra("position", position);
             startActivity(englishWordsIntent);
         }
     };
@@ -26,6 +27,7 @@ public class EnglishCategory extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_english_word_categories);
 
+        getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorPrimaryDark)));
         wordsCategories = getResources().getStringArray(R.array.english_word_categories);
 
         ListView categories = (ListView) findViewById(R.id.english_category_list);
