@@ -34,7 +34,5 @@ public class TopLevelActivity extends Activity {
         languagesList.setOnItemClickListener(itemClickListener);
         ArrayAdapter<String> categoriesAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, languages);
         languagesList.setAdapter(categoriesAdapter);
-
-
     }
 }

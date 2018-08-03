@@ -28,12 +28,13 @@ public class EnglishCategory extends Activity {
         setContentView(R.layout.activity_english_word_categories);
 
         getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorPrimaryDark)));
-        wordsCategories = getResources().getStringArray(R.array.english_word_categories);
 
+        wordsCategories = getResources().getStringArray(R.array.english_word_categories);
         ListView categories = (ListView) findViewById(R.id.english_category_list);
         categories.setOnItemClickListener(itemClickListener);
         ArrayAdapter<String> categoriesAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, wordsCategories);
         categories.setAdapter(categoriesAdapter);
+
     }
 
     public static String[] getWordsCategories() {

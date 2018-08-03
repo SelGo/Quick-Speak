@@ -7,10 +7,9 @@
     android:orientation="vertical"
     tools:context="selgo.com.quickspeak.WordListContainer">
 
-    <fragment
-        class="selgo.com.quickspeak.EnglishWordFragment"
+    <ListView
+        android:id="@+id/word_items_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/english_list_frag" />
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
