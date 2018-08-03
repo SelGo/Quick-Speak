@@ -7,273 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d8b8a1e-0331-494a-a9b7-29edf059d56f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/android_android_25.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_3_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_3_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/constraint_layout_1_0_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/constraint_layout_solver_1_0_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_integration_1_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_library_1_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javawriter_2_1_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_annotation_api_1_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_inject_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsr305_2_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_3_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_3_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_3_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_3_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_3_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_3_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_3_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_3_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Quick-Speak.iml" afterPath="$PROJECT_DIR$/Quick-Speak.iml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishCategory.java" afterPath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishCategory.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWord.java" afterPath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWord.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWordFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWordFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/TopLevelActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/TopLevelActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/WordListContainer.java" afterPath="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/WordListContainer.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_top_level.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_top_level.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_word_list_container.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_word_list_container.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/english_word_fragment_layout.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/a.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/a_an.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/apple.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/apricot.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/are_not_arent.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/avocado.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/b.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/banana.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/bean.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/black.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/blue.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/blueberry.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/broccoli.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/brown.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/c.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cabbage.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/can.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/carrot.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cauliflower.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cherry.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/coconut.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/color.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/congratulations.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/corn.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/d.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/dark.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/e.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/eight.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/eight_nine.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighteen.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_eight.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_five.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_four.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_nine.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_one.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_seven.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_six.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_three.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/eighty_two.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/eleven.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/f.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifteen.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifthteen.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_eight.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_five.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_four.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_nine.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_one.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_seven.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_six.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_three.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fifty_two.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fig.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fine.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/five.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_eight.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_five.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_four.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_nine.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_one.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_seven.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_six.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_three.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/forty_two.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/four.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/fourteen.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/g.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/garlic.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/get_well_soon.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/good_evening.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/good_luck.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/good_morning.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/good_night.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/goodbye_bye.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/grape.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/grapefruit.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/green.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/grey.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/h.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/happy_easter.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/happy_new_year.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/he_is_hes.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/hello_hi.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/how_are_you.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/hows_it_going.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/i.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/i_am_im.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/introduce_someone_to_somebody.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/introduce_to.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/is_not_isnt.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/it_is_its.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/j.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/k.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/kiwi.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/know.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/l.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/lemon.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/lettuce.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/light.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/lime.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/m.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/mandarin.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/mango.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/meet.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/melon.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/merry_christmas.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/mushroom.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/n.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/nine.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/nineteen.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_eight.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_five.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_four.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_nine.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_one.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_seven.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_six.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_three.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ninety_two.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/no.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/o.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/one.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/one_hundred.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/onion.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/orange.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/p.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/papaya.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/peach.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/pear.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/peas.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/pepper.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/pineapple.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/pink.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/pleased_to_meet_you.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/plum.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/pomegranate.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/potato.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/pumpkin.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/purple.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/q.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/quince.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/r.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/raspberry.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/red.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/s.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/seven.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventeen.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_eight.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_five.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_four.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_nine.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_one.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_seven.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_six.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_three.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/seventy_two.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/she_is_shes.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/six.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixteen.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_eight.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_five.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_four.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_nine.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_one.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_seven.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_six.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_three.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/sixty_two.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/spinach.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/strawberry.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/t.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/ten.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/thank_you.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirteen.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_eight.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_five.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_four.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_nine.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_one.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_seven.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_six.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_three.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/thirty_two.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/three.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/tomato.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/twelve.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_eight.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_five.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_four.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_nine.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_one.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_seven.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_six.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_three.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/twenty_two.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/two.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/u.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/v.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/w.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/watermelon.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/what.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/what_is_whats.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/white.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/who.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/who_is_whos.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/will.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/x.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/y.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/yellow.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/yes.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/you_are_youre.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/z.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/zero.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -300,8 +44,8 @@
       <file leaf-file-name="EnglishWord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -310,38 +54,24 @@
       <file leaf-file-name="TopLevelActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/TopLevelActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="238">
               <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#392#858#0" expanded="true" />
-                <element signature="e#857#858#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnglishCategory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnglishCategory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishCategory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="26" column="66" lean-forward="false" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+            <state relative-caret-position="561">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
-                <element signature="e#398#771#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#1432#1433#0" expanded="true" />
-                <element signature="e#1470#1471#0" expanded="true" />
+                <element signature="e#1597#1598#0" expanded="true" />
+                <element signature="e#1635#1636#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -349,8 +79,8 @@
       <file leaf-file-name="WordListContainer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/WordListContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+            <state relative-caret-position="425">
+              <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -359,12 +89,25 @@
       <file leaf-file-name="EnglishWordFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWordFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="316">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_item.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -2390,14 +2133,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_word_list_container.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/WordListContainer.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWord.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWordFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_top_level.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/TopLevelActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/WordListContainer.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishCategory.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWord.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWordFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
       </list>
     </option>
   </component>
@@ -2422,6 +2167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2432,33 +2178,21 @@
             <path>
               <item name="quick-speak" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
               <item name="quick-speak" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="quick-speak" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="quick-speak" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="quickspeak" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2631,7 +2365,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2643,12 +2376,12 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271605" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5555556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23571429" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23571429" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2678,6 +2411,108 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWord.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/TopLevelActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/WordListContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWordFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/TopLevelActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/WordListContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="119" lean-forward="false" selection-start-line="18" selection-start-column="119" selection-end-line="18" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWordFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWord.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding />
@@ -2690,8 +2525,6 @@
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#392#858#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2701,10 +2534,8 @@
         <state relative-caret-position="306">
           <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
           <folding>
-            <element signature="e#398#771#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#1432#1433#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2718,14 +2549,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_word_list_container.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWordFragment.java">
@@ -2752,8 +2583,6 @@
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#392#858#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2763,10 +2592,8 @@
         <state relative-caret-position="170">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="e#398#771#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#1432#1433#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2803,8 +2630,6 @@
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#392#858#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2822,10 +2647,8 @@
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="e#398#771#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#1432#1433#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2842,60 +2665,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/english_word_fragment_layout.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_word_list_container.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/WordListContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWordFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_top_level.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_top_level.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="e#507#532#0" expanded="false" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2922,12 +2715,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/TopLevelActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="238">
           <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#392#858#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2940,17 +2731,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishCategory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="26" column="66" lean-forward="false" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+        <state relative-caret-position="561">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="e#398#771#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#1432#1433#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/WordListContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/selgo/com/quickspeak/EnglishWordFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>

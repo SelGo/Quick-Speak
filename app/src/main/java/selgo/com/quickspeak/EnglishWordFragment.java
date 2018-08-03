@@ -8,23 +8,30 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
+import java.util.ArrayList;
+
 public class EnglishWordFragment extends ListFragment {
+
+
+    private ArrayList<EnglishWord> words = new ArrayList<>();
+    private static String[] arrayDefault = {""};
+    private ArrayAdapter<EnglishWord> adapter;
+    private ArrayAdapter<String> adapterDefault;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        
+
         int position = getActivity().getIntent().getExtras().getInt("position");
-        ArrayAdapter<EnglishWord> adapter;
-        ArrayAdapter<String> adapterDefault;
 
         switch(position) {
             case 0:
-                adapter = new ArrayAdapter<>(inflater.getContext(), android.R.layout.simple_list_item_1, EnglishWord.theAlphabet);
+                words.add(new EnglishWord("A", "a"));
+                adapter = new ArrayAdapter<>(inflater.getContext(), android.R.layout.simple_list_item_1, words);
                 setListAdapter(adapter);
                 break;
             default:
-                adapterDefault = new ArrayAdapter<>(inflater.getContext(), android.R.layout.simple_list_item_1, EnglishWord.arrayDefault);
+                adapterDefault = new ArrayAdapter<>(inflater.getContext(), android.R.layout.simple_list_item_1, arrayDefault);
                 setListAdapter(adapterDefault);
                 break;
         }

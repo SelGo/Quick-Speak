@@ -4,12 +4,6 @@ public class EnglishWord {
     private String englishWord;
     private String translatedWord;
 
-    public static String[] arrayDefault = {""};
-
-    public static EnglishWord[] theAlphabet = {
-            new EnglishWord("A", "a")
-    };
-
     public EnglishWord(String englishWord, String translatedWord) {
         this.englishWord = englishWord;
         this.translatedWord = translatedWord;
@@ -25,7 +19,5 @@ public class EnglishWord {
     public String toString() {
         return this.englishWord;
     }
-
-
 
 }
