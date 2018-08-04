@@ -32,7 +32,7 @@ public class TopLevelActivity extends Activity {
 
         ListView languagesList = (ListView) findViewById(R.id.languages_list);
         languagesList.setOnItemClickListener(itemClickListener);
-        ArrayAdapter<String> categoriesAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, languages);
-        languagesList.setAdapter(categoriesAdapter);
+        LanguageItemAdapter languageItemAdapter = new LanguageItemAdapter(this, languages);
+        languagesList.setAdapter(languageItemAdapter);
     }
 }

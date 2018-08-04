@@ -32,8 +32,8 @@ public class EnglishCategory extends Activity {
         wordsCategories = getResources().getStringArray(R.array.english_word_categories);
         ListView categories = (ListView) findViewById(R.id.english_category_list);
         categories.setOnItemClickListener(itemClickListener);
-        ArrayAdapter<String> categoriesAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, wordsCategories);
-        categories.setAdapter(categoriesAdapter);
+        SingleItemAdapter singleItemAdapter = new SingleItemAdapter(this, wordsCategories);
+        categories.setAdapter(singleItemAdapter);
 
     }
 
