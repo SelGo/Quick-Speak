@@ -5,12 +5,12 @@
     android:orientation="horizontal">
 
     <LinearLayout
+        android:id="@+id/word_translations_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="3dp"
-        android:background="@color/colorPrimaryDark"
-        android:orientation="vertical"
-        android:padding="10dp">
+        android:background="@color/colorEnglish"
+        android:orientation="horizontal"
+        android:padding="20dp">
 
         <TextView
             android:id="@+id/language_word"
@@ -18,7 +18,8 @@
             android:layout_height="wrap_content"
             android:textColor="@color/colorWhite"
             android:textStyle="bold"
-            android:textSize="20sp"
+            android:paddingRight="10dp"
+            android:textSize="15sp"
             android:text="Language Word" />
 
         <TextView
@@ -26,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/colorWhite"
-            android:textSize="15sp"
+            android:textSize="13sp"
             android:text="Translated Word" />
 
     </LinearLayout>

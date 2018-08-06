@@ -1,6 +1,5 @@
 package selgo.com.quickspeak;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
@@ -36,12 +35,12 @@ public class LanguageItemAdapter extends ArrayAdapter<String> {
 
         switch (position){
             case 0:
-                d = parent.getContext().getResources().getDrawable(R.color.colorPrimaryDark);
+                d = parent.getContext().getResources().getDrawable(R.color.colorEnglish);
                 linearLayout.setBackground(d);
                 imageView.setImageResource(R.mipmap.english_flag);
                 break;
             default:
-                d = parent.getContext().getResources().getDrawable(R.color.colorPrimary);
+                d = parent.getContext().getResources().getDrawable(R.color.colorMaterialGray);
                 linearLayout.setBackground(d);
                 imageView.setImageResource(R.mipmap.ic_launcher_round);
                 break;

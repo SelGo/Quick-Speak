@@ -6,7 +6,6 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class EnglishCategory extends Activity {
@@ -27,7 +26,7 @@ public class EnglishCategory extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_english_word_categories);
 
-        getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorPrimaryDark)));
+        getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorEnglish)));
 
         wordsCategories = getResources().getStringArray(R.array.english_word_categories);
         ListView categories = (ListView) findViewById(R.id.english_category_list);
