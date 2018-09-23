@@ -6,7 +6,7 @@
 
     <string-array name="languages">
         <item>Αγγλικά</item>
-        <item>Ιταλικά</item>
+        <!--<item>Ιταλικά</item>-->
     </string-array>
 
     <string-array name="english_word_categories">
