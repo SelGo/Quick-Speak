@@ -29,7 +29,7 @@ public class SingleItemAdapter extends ArrayAdapter<String> {
         textView.setText(language);
 
         Drawable d;
-        LinearLayout linearLayout = (LinearLayout) listItemView.findViewById(R.id.category_list);
+        LinearLayout linearLayout = (LinearLayout) listItemView.findViewById(R.id.level_list);
 
         switch(position) {
             case 0:

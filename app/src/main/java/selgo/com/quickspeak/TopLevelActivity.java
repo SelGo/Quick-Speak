@@ -15,7 +15,7 @@ public class TopLevelActivity extends Activity {
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             switch (position) {
                 case 0:
-                    Intent englishWordsIntent = new Intent(TopLevelActivity.this, EnglishCategory.class);
+                    Intent englishWordsIntent = new Intent(TopLevelActivity.this, EnglishLevel.class);
                     englishWordsIntent.putExtra("position", position);
                     startActivity(englishWordsIntent);
             }

@@ -3,16 +3,14 @@ package selgo.com.quickspeak;
 import android.app.Activity;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 
 public class WordListContainer extends Activity {
 
-    private String[] titles = EnglishCategory.getWordsCategories();
+    private String[] titles = EnglishLevel.getWordsCategories();
     private ArrayList<EnglishWord> words = new ArrayList<>();
     private static String[] arrayDefault = {""};
     private ArrayAdapter<String> adapterDefault;
