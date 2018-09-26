@@ -1,12 +1,19 @@
 package selgo.com.quickspeak;
 
 import android.app.Activity;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import selgo.com.quickspeak.data.WordContract;
+import selgo.com.quickspeak.data.WordContract.WordEntry;
+import selgo.com.quickspeak.data.WordDbHelper;
 
 public class WordListContainer extends Activity {
 
@@ -25,6 +32,7 @@ public class WordListContainer extends Activity {
 
         switch (position) {
             case 0:
+                displayDatabaseInfo();
                 getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorEnglish)));
                 getActionBar().setTitle(titles[0]);
 
@@ -38,56 +46,9 @@ public class WordListContainer extends Activity {
                 listView.setAdapter(wordAdapter);
                 break;
             case 1:
+                displayDatabaseInfo();
                 getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorRed)));
                 getActionBar().setTitle(titles[1]);
-
-                words.add(new EnglishWord("English Word", "Translated Word"));
-                words.add(new EnglishWord("English Word", "Translated Word"));
-                words.add(new EnglishWord("English Word", "Translated Word"));
-
-                wordAdapter = new WordAdapter(this, words);
-                listView = (ListView) findViewById(R.id.word_items_list);
-                listView.setAdapter(wordAdapter);
-                break;
-            case 2:
-                getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorEnglish)));
-                getActionBar().setTitle(titles[2]);
-
-                words.add(new EnglishWord("English Word", "Translated Word"));
-                words.add(new EnglishWord("English Word", "Translated Word"));
-                words.add(new EnglishWord("English Word", "Translated Word"));
-
-                wordAdapter = new WordAdapter(this, words);
-                listView = (ListView) findViewById(R.id.word_items_list);
-                listView.setAdapter(wordAdapter);
-                break;
-            case 3:
-                getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorRed)));
-                getActionBar().setTitle(titles[3]);
-
-                words.add(new EnglishWord("English Word", "Translated Word"));
-                words.add(new EnglishWord("English Word", "Translated Word"));
-                words.add(new EnglishWord("English Word", "Translated Word"));
-
-                wordAdapter = new WordAdapter(this, words);
-                listView = (ListView) findViewById(R.id.word_items_list);
-                listView.setAdapter(wordAdapter);
-                break;
-            case 4:
-                getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorEnglish)));
-                getActionBar().setTitle(titles[4]);
-
-                words.add(new EnglishWord("English Word", "Translated Word"));
-                words.add(new EnglishWord("English Word", "Translated Word"));
-                words.add(new EnglishWord("English Word", "Translated Word"));
-
-                wordAdapter = new WordAdapter(this, words);
-                listView = (ListView) findViewById(R.id.word_items_list);
-                listView.setAdapter(wordAdapter);
-                break;
-            case 5:
-                getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorRed)));
-                getActionBar().setTitle(titles[5]);
 
                 words.add(new EnglishWord("English Word", "Translated Word"));
                 words.add(new EnglishWord("English Word", "Translated Word"));
@@ -105,6 +66,23 @@ public class WordListContainer extends Activity {
                 listView = (ListView) findViewById(R.id.word_items_list);
                 listView.setAdapter(adapterDefault);
                 break;
+        }
+    }
+
+    /**
+     *  Temporary method to test if quick_speak.db database is created properly and it's ready for using.
+     */
+    private void displayDatabaseInfo() {
+        WordDbHelper mDbHelper = new WordDbHelper(this);
+        SQLiteDatabase db = mDbHelper.getReadableDatabase();
+
+        Cursor cursor = db.rawQuery("SELECT * FROM " + WordEntry.TABLE_NAME, null);
+
+        try {
+            TextView dbTestText = (TextView) findViewById(R.id.db_test_text);
+            dbTestText.setText("Table " + WordEntry.TABLE_NAME + " has " + cursor.getCount() + " rows.");
+        } finally {
+            cursor.close();
         }
     }
 }
