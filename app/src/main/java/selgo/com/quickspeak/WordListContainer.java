@@ -76,13 +76,24 @@ public class WordListContainer extends Activity {
         WordDbHelper mDbHelper = new WordDbHelper(this);
         SQLiteDatabase db = mDbHelper.getReadableDatabase();
 
-        Cursor cursor = db.rawQuery("SELECT * FROM " + WordEntry.TABLE_NAME, null);
+        Cursor cursor = db.query(WordEntry.TABLE_NAME,
+                new String[]{WordEntry.COLUMN_ENGLISH_WORD, WordEntry.COLUMN_TRANSLATED_WORD},
+                WordEntry.COLUMN_LEVEL + "=?",
+                new String[] {"Level 1"},
+                null, null, null);
+
+        /*Cursor cursor = db.rawQuery("SELECT * FROM " + WordEntry.TABLE_NAME, null);*/
+
 
         try {
             TextView dbTestText = (TextView) findViewById(R.id.db_test_text);
-            dbTestText.setText("Table " + WordEntry.TABLE_NAME + " has " + cursor.getCount() + " rows.");
+            dbTestText.setText(cursor.getCount() + "");
+            /*if(cursor.moveToFirst()) {
+                dbTestText.setText(cursor.getString(0));
+            }*/
         } finally {
             cursor.close();
+            db.close();
         }
     }
 }
