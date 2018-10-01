@@ -7,15 +7,6 @@
     android:orientation="vertical"
     tools:context="selgo.com.quickspeak.WordListContainer">
 
-    <TextView
-        android:id="@+id/db_test_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:textSize="15sp"
-        android:gravity="center"
-        android:text="db rows count"/>
-
     <ListView
         android:id="@+id/word_items_list"
         android:layout_width="match_parent"
