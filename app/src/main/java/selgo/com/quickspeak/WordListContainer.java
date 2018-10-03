@@ -53,10 +53,32 @@ public class WordListContainer extends Activity {
                     Toast toast = Toast.makeText(this, "Database unavailable", Toast.LENGTH_SHORT);
                     toast.show();
                 }
+
                 break;
             case 1:
                 getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorRed)));
                 getActionBar().setTitle(titles[1]);
+
+                try {
+                    mDbHelper = new WordDbHelper(this);
+                    db = mDbHelper.getReadableDatabase();
+
+                    cursor = db.query(WordEntry.TABLE_NAME,
+                            new String[]{WordEntry._ID, WordEntry.COLUMN_ENGLISH_WORD, WordEntry.COLUMN_TRANSLATED_WORD},
+                            WordEntry.COLUMN_LEVEL + "=?",
+                            new String[] {"Level 2"},
+                            null, null, null);
+
+                    WordCursorAdapter wordCursorAdapter = new WordCursorAdapter(this, cursor);
+
+                    listView = (ListView) findViewById(R.id.word_items_list);
+                    listView.setAdapter(wordCursorAdapter);
+                } catch (SQLException e) {
+                    Toast toast = Toast.makeText(this, "Database unavailable", Toast.LENGTH_SHORT);
+                    toast.show();
+                }
+
+                break;
             default:
                 getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorDefault)));
                 getActionBar().setTitle(R.string.app_name);
