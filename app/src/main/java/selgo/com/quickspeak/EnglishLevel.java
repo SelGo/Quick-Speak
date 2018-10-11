@@ -26,7 +26,7 @@ public class EnglishLevel extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_english_word_levels);
 
-        getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorEnglish)));
+        getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorPrimary)));
 
         wordsCategories = getResources().getStringArray(R.array.english_word_levels);
         ListView categories = (ListView) findViewById(R.id.english_level_list);

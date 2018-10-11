@@ -35,13 +35,13 @@ public class LanguageItemAdapter extends ArrayAdapter<String> {
 
         switch (position){
             case 0:
-                d = parent.getContext().getResources().getDrawable(R.color.colorEnglish);
-                linearLayout.setBackground(d);
+                /*d = parent.getContext().getResources().getDrawable(R.color.colorEnglish);
+                linearLayout.setBackground(d);*/
                 imageView.setImageResource(R.mipmap.english_flag);
                 break;
             default:
-                d = parent.getContext().getResources().getDrawable(R.color.colorMaterialGray);
-                linearLayout.setBackground(d);
+                /*d = parent.getContext().getResources().getDrawable(R.color.colorMaterialGray);
+                linearLayout.setBackground(d);*/
                 imageView.setImageResource(R.mipmap.ic_launcher_round);
                 break;
         }

@@ -29,10 +29,10 @@ public class WordListContainer extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_word_list_container);
         int position = getIntent().getExtras().getInt("position");
+        getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorPrimary)));
 
         switch (position) {
             case 0:
-                getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorEnglish)));
                 getActionBar().setTitle(titles[0]);
 
                 try {
@@ -56,7 +56,6 @@ public class WordListContainer extends Activity {
 
                 break;
             case 1:
-                getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorRed)));
                 getActionBar().setTitle(titles[1]);
 
                 try {
@@ -80,7 +79,6 @@ public class WordListContainer extends Activity {
 
                 break;
             default:
-                getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorDefault)));
                 getActionBar().setTitle(R.string.app_name);
 
                 adapterDefault = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, arrayDefault);

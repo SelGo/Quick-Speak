@@ -31,7 +31,7 @@ public class SingleItemAdapter extends ArrayAdapter<String> {
         Drawable d;
         LinearLayout linearLayout = (LinearLayout) listItemView.findViewById(R.id.level_list);
 
-        switch(position) {
+        /*switch(position) {
             case 0:
             case 2:
             case 4:
@@ -47,11 +47,10 @@ public class SingleItemAdapter extends ArrayAdapter<String> {
                 linearLayout.setBackground(d);
                 break;
             default:
-                d = parent.getContext().getResources().getDrawable(R.color.colorDefault);
+                d = parent.getContext().getResources().getDrawable(R.color.colorPrimary);
                 linearLayout.setBackground(d);
                 break;
-
-        }
+        }*/
 
         return listItemView;
     }

@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="selgo.com.quickspeak.TopLevelActivity">
 
     <TextView
+        android:id="@+id/textView"
+        style="@style/InstructionTextStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/InstructionTextStyle"
-        android:text="@string/language_choice"/>
+        android:text="@string/language_choice"
+        app:layout_constraintBottom_toTopOf="@+id/languages_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
         android:id="@+id/languages_list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -3,8 +3,8 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="android:Theme.DeviceDefault.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorDefault</item>
-        <item name="colorPrimaryDark">@color/colorEnglish</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     
@@ -25,9 +25,19 @@
         <item name="android:padding">16dp</item>
         <item name="android:textColor">#000000</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
+    <style name="LanguageWordTextStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LanguageTranslatedWordTextStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
 
 
 </resources>

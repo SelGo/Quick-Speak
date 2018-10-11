@@ -4,25 +4,21 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:id="@+id/word_translations_list"
-    android:background="@color/colorEnglish"
     android:padding="17dp" >
 
         <TextView
             android:id="@+id/language_word"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorWhite"
-            android:textStyle="bold"
+            style="@style/LanguageWordTextStyle"
             android:layout_marginBottom="8dp"
-            android:textSize="15sp"
             android:text="Language Word" />
 
         <TextView
             android:id="@+id/translated_word"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorWhite"
-            android:textSize="13sp"
+            style="@style/LanguageTranslatedWordTextStyle"
             android:text="Translated Word" />
 
 </LinearLayout>
