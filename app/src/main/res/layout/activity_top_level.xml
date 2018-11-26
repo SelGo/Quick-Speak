@@ -8,17 +8,31 @@
     android:orientation="vertical"
     tools:context="selgo.com.quickspeak.TopLevelActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        style="@style/InstructionTextStyle"
+    <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/roboto"
-        android:text="@string/language_choice"/>
+        android:theme="@style/Theme.AppCompat.Light"
+        android:background="@color/colorPrimary">
 
-    <ListView
-        android:id="@+id/languages_list"
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/english_language"
+            app:titleTextColor="@color/colorWhite"/>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            app:tabTextColor="@color/colorWhite2"
+            app:tabSelectedTextColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent" />
 
 </LinearLayout>

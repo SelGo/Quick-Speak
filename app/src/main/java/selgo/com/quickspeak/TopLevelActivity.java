@@ -1,40 +1,66 @@
 package selgo.com.quickspeak;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ListView;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 
-public class TopLevelActivity extends Activity {
-    private static String[] languages;
+public class TopLevelActivity extends AppCompatActivity {
 
-    AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
-        @Override
-        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-            switch (position) {
-                case 0:
-                    Intent englishWordsIntent = new Intent(TopLevelActivity.this, EnglishLevel.class);
-                    englishWordsIntent.putExtra("position", position);
-                    startActivity(englishWordsIntent);
-            }
-        }
-    };
+    private static String[] levels;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_top_level);
 
-        getActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorPrimary)));
+        LevelPagerAdapter levelPagerAdapter = new LevelPagerAdapter(getSupportFragmentManager());
+        ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
+        viewPager.setAdapter(levelPagerAdapter);
 
-        languages = getResources().getStringArray(R.array.languages);
-
-        ListView languagesList = (ListView) findViewById(R.id.languages_list);
-        languagesList.setOnItemClickListener(itemClickListener);
-        LanguageItemAdapter languageItemAdapter = new LanguageItemAdapter(this, languages);
-        languagesList.setAdapter(languageItemAdapter);
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
     }
+
+    private class LevelPagerAdapter extends FragmentPagerAdapter {
+
+        public LevelPagerAdapter(FragmentManager fragmentManager) {
+            super(fragmentManager);
+        }
+
+        @Override
+        public int getCount() {
+            return 2;
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            switch (position) {
+                case 0:
+                    return new WordFragment();
+                case 1:
+                    return new WordFragment();
+            }
+            return null;
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+
+            levels = getResources().getStringArray(R.array.english_word_levels);
+
+            switch (position) {
+                case 0:
+                    return levels[0];
+                case 1:
+                    return levels[1];
+                default:
+                    return null;
+            }
+        }
+    }
+
 }
