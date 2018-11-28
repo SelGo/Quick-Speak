@@ -23,6 +23,7 @@ public class TopLevelActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
+        int tabPosition = tabLayout.getSelectedTabPosition();
     }
 
     private class LevelPagerAdapter extends FragmentPagerAdapter {
@@ -40,9 +41,9 @@ public class TopLevelActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    return new WordFragment();
+                    return WordFragment.newInstance(position);
                 case 1:
-                    return new WordFragment();
+                    return WordFragment.newInstance(position);
             }
             return null;
         }

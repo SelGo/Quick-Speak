@@ -47,9 +47,9 @@ public class WordFragment extends Fragment {
         super.onStart();
 
         View view = getView();
-
+        int tabPosition = getArguments().getInt("tabPosition");
         if(view != null) {
-            switch ( (int) wordId) {
+            switch ( tabPosition ) {
                 case 0:
                     wordsRetrieveQuery(view, "Level 1");
                     break;
@@ -73,6 +73,7 @@ public class WordFragment extends Fragment {
     }
 */
 
+
     public void wordsRetrieveQuery(View view, String conditionValue) {
         try {
             mDbHelper = new WordDbHelper(view.getContext());
@@ -92,6 +93,16 @@ public class WordFragment extends Fragment {
             Toast toast = Toast.makeText(view.getContext(), "Database unavailable", Toast.LENGTH_SHORT);
             toast.show();
         }
+    }
+
+    public static WordFragment newInstance(int tabPosition) {
+        WordFragment wordFragment = new WordFragment();
+
+        Bundle arguments = new Bundle();
+        arguments.putInt("tabPosition", tabPosition);
+        wordFragment.setArguments(arguments);
+
+        return wordFragment;
     }
 
     @Override
