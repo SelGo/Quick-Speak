@@ -23,7 +23,6 @@ public class TopLevelActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
-        int tabPosition = tabLayout.getSelectedTabPosition();
     }
 
     private class LevelPagerAdapter extends FragmentPagerAdapter {

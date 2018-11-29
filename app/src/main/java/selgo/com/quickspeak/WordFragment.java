@@ -6,6 +6,8 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,14 +21,13 @@ import selgo.com.quickspeak.data.WordDbHelper;
 
 public class WordFragment extends Fragment {
 
-    private long wordId;
-    private int tabPosition;
     private static String[] arrayDefault = {""};
     private ArrayAdapter<String> adapterDefault;
     private ListView listView;
     private SQLiteDatabase db;
     private Cursor cursor;
     private WordDbHelper mDbHelper;
+    private RecyclerView recyclerView;
 
     public WordFragment() {
         // Required empty public constructor
@@ -35,11 +36,8 @@ public class WordFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
- /*       if(savedInstanceState != null) {
-            wordId = savedInstanceState.getLong("wordId");
-            wordId = 1;
-        }*/
-        return inflater.inflate(R.layout.fragment_word, container, false);
+        recyclerView = (RecyclerView) inflater.inflate(R.layout.fragment_word, container, false);
+        return recyclerView;
     }
 
     @Override
@@ -56,23 +54,14 @@ public class WordFragment extends Fragment {
                 case 1:
                     wordsRetrieveQuery(view, "Level 2");
                     break;
-                default:
+/*                default:
                     adapterDefault = new ArrayAdapter<String>(view.getContext(), android.R.layout.simple_list_item_1, arrayDefault);
                     listView = (ListView) view.findViewById(R.id.word_items_list);
                     listView.setAdapter(adapterDefault);
-                    break;
+                    break;*/
             }
-
         }
     }
-
-/*
-    @Override
-    public void onSaveInstanceState(Bundle savedInstanceState) {
-        savedInstanceState.putLong("wordId", wordId);
-    }
-*/
-
 
     public void wordsRetrieveQuery(View view, String conditionValue) {
         try {
@@ -85,10 +74,15 @@ public class WordFragment extends Fragment {
                     new String[] {conditionValue},
                     null, null, null);
 
-            WordCursorAdapter wordCursorAdapter = new WordCursorAdapter(view.getContext(), cursor);
+           /* WordCursorAdapter wordCursorAdapter = new WordCursorAdapter(view.getContext(), cursor);
 
             listView = (ListView) view.findViewById(R.id.word_items_list);
-            listView.setAdapter(wordCursorAdapter);
+            listView.setAdapter(wordCursorAdapter);*/
+
+            WordAdapter wordAdapter = new WordAdapter(view.getContext(), cursor);
+            recyclerView.setAdapter(wordAdapter);
+            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
+            recyclerView.setLayoutManager(linearLayoutManager);
         } catch (SQLException e) {
             Toast toast = Toast.makeText(view.getContext(), "Database unavailable", Toast.LENGTH_SHORT);
             toast.show();
