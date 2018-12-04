@@ -1,10 +1,12 @@
 package selgo.com.quickspeak;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
@@ -25,7 +27,7 @@ public class TopLevelActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
 
-    private class LevelPagerAdapter extends FragmentPagerAdapter {
+    private class LevelPagerAdapter extends FragmentStatePagerAdapter {
 
         public LevelPagerAdapter(FragmentManager fragmentManager) {
             super(fragmentManager);
@@ -40,9 +42,9 @@ public class TopLevelActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    return WordFragment.newInstance(position);
                 case 1:
                     return WordFragment.newInstance(position);
+
             }
             return null;
         }
@@ -58,7 +60,7 @@ public class TopLevelActivity extends AppCompatActivity {
                 case 1:
                     return levels[1];
                 default:
-                    return null;
+                    return "SampleTitle";
             }
         }
     }

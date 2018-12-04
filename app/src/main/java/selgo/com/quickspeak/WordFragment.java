@@ -54,11 +54,9 @@ public class WordFragment extends Fragment {
                 case 1:
                     wordsRetrieveQuery(view, "Level 2");
                     break;
-/*                default:
-                    adapterDefault = new ArrayAdapter<String>(view.getContext(), android.R.layout.simple_list_item_1, arrayDefault);
-                    listView = (ListView) view.findViewById(R.id.word_items_list);
-                    listView.setAdapter(adapterDefault);
-                    break;*/
+                default:
+                    wordsRetrieveQuery(view, "Level 1");
+                    break;
             }
         }
     }
