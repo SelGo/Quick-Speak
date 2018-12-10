@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WordFragment">
+    android:orientation="vertical">
 
     <ListView
-        android:id="@+id/word_items_list"
+        android:id="@+id/word_listview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:divider="@null"/>
+        android:layout_height="wrap_content" />
 
-</FrameLayout>-->
-<android.support.v7.widget.RecyclerView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/word_recycler"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:scrollbars="vertical" />
+</LinearLayout>

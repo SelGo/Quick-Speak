@@ -1,41 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/linearLayout"
+<!--<ScrollView
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="selgo.com.quickspeak.TopLevelActivity">
+    android:fillViewport="true">-->
 
-    <android.support.design.widget.AppBarLayout
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/Theme.AppCompat.Light" >
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="selgo.com.quickspeak.TopLevelActivity">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+        <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:title="@string/english_language" />
+            android:theme="@style/Theme.AppCompat.Light">
 
-        <android.support.design.widget.TabLayout
-            android:id="@+id/tabs"
-            app:tabMode="scrollable"
-            android:paddingLeft="9dp"
-            app:tabGravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                app:title="@string/english_language" />
 
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                app:tabMode="scrollable"
+                app:tabGravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                />
 
+        </android.support.design.widget.AppBarLayout>
 
-    </android.support.design.widget.AppBarLayout>
+        <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        </android.support.v4.view.ViewPager>
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/pager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+    </LinearLayout>
 
-    </android.support.v4.view.ViewPager>
-
-</LinearLayout>
+<!--</ScrollView>-->

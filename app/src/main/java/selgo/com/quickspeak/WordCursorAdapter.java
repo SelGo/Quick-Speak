@@ -21,13 +21,13 @@ public class WordCursorAdapter extends CursorAdapter {
 
     @Override
     public void bindView(View view, Context context, Cursor cursor) {
-        TextView word = (TextView) view.findViewById(R.id.language_word);
-        TextView translatedWord = (TextView) view.findViewById(R.id.translated_word);
+            TextView word = (TextView) view.findViewById(R.id.language_word);
+            TextView translatedWord = (TextView) view.findViewById(R.id.translated_word);
 
-        String wordText = cursor.getString(1);
-        String translatedWordText = cursor.getString(2);
+            String wordText = cursor.getString(1);
+            String translatedWordText = cursor.getString(2);
 
-        word.setText(wordText);
-        translatedWord.setText(translatedWordText);
+            word.setText(wordText);
+            translatedWord.setText(translatedWordText);
     }
 }

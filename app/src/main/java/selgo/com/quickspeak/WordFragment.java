@@ -6,14 +6,19 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.NestedScrollView;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.ScrollView;
 import android.widget.Toast;
 
 import selgo.com.quickspeak.data.WordContract;
@@ -22,13 +27,14 @@ import selgo.com.quickspeak.data.WordDbHelper;
 
 public class WordFragment extends Fragment {
 
-    private static String[] arrayDefault = {""};
-    private ArrayAdapter<String> adapterDefault;
-    private ListView listView;
     private SQLiteDatabase db;
     private Cursor cursor;
     private WordDbHelper mDbHelper;
-    private RecyclerView recyclerView;
+    private ListView listView;
+    private ListView listView2;
+    private ScrollView scrollView;
+    private CardView cardView;
+    private LinearLayout linearLayout;
 
     public WordFragment() {
         // Required empty public constructor
@@ -37,8 +43,8 @@ public class WordFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        recyclerView = (RecyclerView) inflater.inflate(R.layout.fragment_word, container, false);
-        return recyclerView;
+        linearLayout = (LinearLayout) inflater.inflate(R.layout.fragment_word, container, false);
+        return linearLayout;
     }
 
     @Override
@@ -73,16 +79,11 @@ public class WordFragment extends Fragment {
                     new String[] {conditionValue},
                     null, null, null);
 
-           /* WordCursorAdapter wordCursorAdapter = new WordCursorAdapter(view.getContext(), cursor);
+            listView = view.findViewById(R.id.word_listview);
+            /*listView.setEnabled(false);*/
+            WordCursorAdapter wordCursorAdapter = new WordCursorAdapter(view.getContext(), cursor);
+            listView.setAdapter(wordCursorAdapter);
 
-            listView = (ListView) view.findViewById(R.id.word_items_list);
-            listView.setAdapter(wordCursorAdapter);*/
-
-            WordAdapter wordAdapter = new WordAdapter(view.getContext(), cursor);
-            recyclerView.addItemDecoration(new DividerItemDecoration(view.getContext(), DividerItemDecoration.HORIZONTAL));
-            recyclerView.setAdapter(wordAdapter);
-            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
-            recyclerView.setLayoutManager(linearLayoutManager);
         } catch (SQLException e) {
             Toast toast = Toast.makeText(view.getContext(), "Database unavailable", Toast.LENGTH_SHORT);
             toast.show();
