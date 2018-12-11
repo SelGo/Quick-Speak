@@ -16,6 +16,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.ScrollView;
@@ -52,6 +53,7 @@ public class WordFragment extends Fragment {
         super.onStart();
 
         View view = getView();
+
         int tabPosition = getArguments().getInt("tabPosition");
         if(view != null) {
             switch ( tabPosition ) {
