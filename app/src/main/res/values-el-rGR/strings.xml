@@ -12,5 +12,6 @@
     <string-array name="english_word_levels">
         <item>Επίπεδο 1</item>
         <item>Επίπεδο 2</item>
+        <item>Επίπεδο 3</item>
     </string-array>
 </resources>

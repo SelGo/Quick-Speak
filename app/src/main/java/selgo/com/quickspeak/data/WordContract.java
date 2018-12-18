@@ -14,6 +14,7 @@ public class WordContract {
         public final static String COLUMN_LEVEL = "level";
         public final static String COLUMN_ENGLISH_WORD = "english_word";
         public final static String COLUMN_TRANSLATED_WORD = "translated_word";
+        public final static String COLUMN_WORD_SOUND_ID = "word_sound_id";
 
     }
 }

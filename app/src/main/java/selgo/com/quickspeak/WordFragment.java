@@ -6,21 +6,14 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.widget.NestedScrollView;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.ScrollView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 import selgo.com.quickspeak.data.WordContract;
 import selgo.com.quickspeak.data.WordDbHelper;
@@ -32,10 +25,9 @@ public class WordFragment extends Fragment {
     private Cursor cursor;
     private WordDbHelper mDbHelper;
     private ListView listView;
-    private ListView listView2;
-    private ScrollView scrollView;
-    private CardView cardView;
     private LinearLayout linearLayout;
+    private int tabPosition;
+    private ArrayList<String> wordList;
 
     public WordFragment() {
         // Required empty public constructor
@@ -54,7 +46,7 @@ public class WordFragment extends Fragment {
 
         View view = getView();
 
-        int tabPosition = getArguments().getInt("tabPosition");
+        tabPosition = getArguments().getInt("tabPosition");
         if(view != null) {
             switch ( tabPosition ) {
                 case 0:
@@ -76,14 +68,16 @@ public class WordFragment extends Fragment {
             db = mDbHelper.getReadableDatabase();
 
             cursor = db.query(WordContract.WordEntry.TABLE_NAME,
-                    new String[]{WordContract.WordEntry._ID, WordContract.WordEntry.COLUMN_ENGLISH_WORD, WordContract.WordEntry.COLUMN_TRANSLATED_WORD},
+                    new String[]{WordContract.WordEntry._ID, WordContract.WordEntry.COLUMN_ENGLISH_WORD, WordContract.WordEntry.COLUMN_TRANSLATED_WORD, WordContract.WordEntry.COLUMN_WORD_SOUND_ID},
                     WordContract.WordEntry.COLUMN_LEVEL + "=?",
                     new String[] {conditionValue},
                     null, null, null);
 
+
             listView = view.findViewById(R.id.word_listview);
             /*listView.setEnabled(false);*/
             WordCursorAdapter wordCursorAdapter = new WordCursorAdapter(view.getContext(), cursor);
+            wordCursorAdapter.setTabPosition(tabPosition);
             listView.setAdapter(wordCursorAdapter);
 
         } catch (SQLException e) {

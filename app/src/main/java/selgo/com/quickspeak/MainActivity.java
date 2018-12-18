@@ -4,11 +4,10 @@ import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ProgressBar;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static int DURATION_TIME = 1500;
+    public static int DURATION_TIME = 1200;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +22,6 @@ public class MainActivity extends AppCompatActivity {
                finish();
            }
         }, DURATION_TIME);
-
-
 
     }
 }
