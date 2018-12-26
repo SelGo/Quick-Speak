@@ -35,7 +35,7 @@ public class TopLevelActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            return 3;
+            return 4;
         }
 
         @Override
@@ -44,6 +44,7 @@ public class TopLevelActivity extends AppCompatActivity {
                 case 0:
                 case 1:
                 case 2:
+                case 3:
                     return WordFragment.newInstance(position);
             }
             return null;
@@ -61,6 +62,8 @@ public class TopLevelActivity extends AppCompatActivity {
                     return levels[1];
                 case 2:
                     return levels[2];
+                case 3:
+                    return levels[3];
                 default:
                     return "SampleTitle";
             }

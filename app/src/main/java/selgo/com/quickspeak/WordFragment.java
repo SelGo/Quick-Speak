@@ -55,6 +55,12 @@ public class WordFragment extends Fragment {
                 case 1:
                     wordsRetrieveQuery(view, "Level 2");
                     break;
+                case 2:
+                    wordsRetrieveQuery(view, "Level 3");
+                    break;
+                case 3:
+                    wordsRetrieveQuery(view, "Level 4");
+                    break;
                 default:
                     wordsRetrieveQuery(view, "Level 1");
                     break;
