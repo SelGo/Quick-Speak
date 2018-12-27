@@ -63,7 +63,7 @@ public class WordCursorAdapter extends CursorAdapter {
     }
 
 /*    @Override
-    public long getItemId(int position) {
+    public long_ getItemId(int position) {
 
         final int x = position;
 
