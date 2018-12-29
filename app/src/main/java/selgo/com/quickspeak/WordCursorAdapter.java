@@ -20,7 +20,6 @@ public class WordCursorAdapter extends CursorAdapter {
     private int tabPosition;
     private MediaPlayer mediaPlayer;
 
-
     public WordCursorAdapter(Context context, Cursor cursor) {
         super(context, cursor, 0);
     }
@@ -41,8 +40,12 @@ public class WordCursorAdapter extends CursorAdapter {
         String translatedWordText = cursor.getString(2);
         final int soundId = cursor.getInt(3);
 
+
+
         word.setText(wordText);
         translatedWord.setText(translatedWordText);
+
+
 
         View.OnClickListener onClickListener = new View.OnClickListener() {
             @Override
@@ -54,6 +57,12 @@ public class WordCursorAdapter extends CursorAdapter {
                     default:
                         mediaPlayer = MediaPlayer.create(view.getContext(), soundId);
                         mediaPlayer.start();
+                        mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                            @Override
+                            public void onCompletion(MediaPlayer mediaPlayer) {
+                                mediaPlayer.release();
+                            }
+                        });
                         break;
                 }
             }
