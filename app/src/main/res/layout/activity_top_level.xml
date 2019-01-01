@@ -1,49 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--<ScrollView
-
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true">-->
+    android:layout_height="match_parent">
+
+    <!--<fragment
+        android:name="selgo.com.quickspeak.WordFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:context="selgo.com.quickspeak.TopLevelActivity">
+        android:orientation="vertical">
 
-        <android.support.design.widget.AppBarLayout
+        <include
+            layout="@layout/app_toolbar"
+            android:id="@+id/app_toolbar"/>
+
+        <FrameLayout
+            android:id="@+id/frag_container"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:theme="@style/Theme.AppCompat.Light">
-
-            <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="56dp"
-                app:title="@string/english_language" />
-
-            <android.support.design.widget.TabLayout
-                android:id="@+id/tabs"
-                app:tabMode="scrollable"
-                app:tabGravity="center"
-                android:layout_marginLeft="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:elevation="4dp"
-                />
-
-        </android.support.design.widget.AppBarLayout>
-
-        <android.support.v4.view.ViewPager
-                android:id="@+id/pager"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-        </android.support.v4.view.ViewPager>
+            android:layout_height="match_parent" />
 
     </LinearLayout>
 
-<!--</ScrollView>-->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navigation_drawer_menu"/>
+
+</android.support.v4.widget.DrawerLayout>
+
+

@@ -13,8 +13,6 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
-
 import selgo.com.quickspeak.data.WordContract;
 import selgo.com.quickspeak.data.WordDbHelper;
 
@@ -26,8 +24,7 @@ public class WordFragment extends Fragment {
     private WordDbHelper mDbHelper;
     private ListView listView;
     private LinearLayout linearLayout;
-    private int tabPosition;
-    private ArrayList<String> wordList;
+    private String levelValue;
 
     public WordFragment() {
         // Required empty public constructor
@@ -46,26 +43,8 @@ public class WordFragment extends Fragment {
 
         View view = getView();
 
-        tabPosition = getArguments().getInt("tabPosition");
-        if(view != null) {
-            switch ( tabPosition ) {
-                case 0:
-                    wordsRetrieveQuery(view, "Level 1");
-                    break;
-                case 1:
-                    wordsRetrieveQuery(view, "Level 2");
-                    break;
-                case 2:
-                    wordsRetrieveQuery(view, "Level 3");
-                    break;
-                case 3:
-                    wordsRetrieveQuery(view, "Level 4");
-                    break;
-                default:
-                    wordsRetrieveQuery(view, "Level 1");
-                    break;
-            }
-        }
+        levelValue = (String) getArguments().getCharSequence("itemTitle");
+        wordsRetrieveQuery(view, levelValue);
     }
 
     public void wordsRetrieveQuery(View view, String conditionValue) {
@@ -83,23 +62,12 @@ public class WordFragment extends Fragment {
             listView = view.findViewById(R.id.word_listview);
             /*listView.setEnabled(false);*/
             WordCursorAdapter wordCursorAdapter = new WordCursorAdapter(view.getContext(), cursor);
-            wordCursorAdapter.setTabPosition(tabPosition);
             listView.setAdapter(wordCursorAdapter);
 
         } catch (SQLException e) {
             Toast toast = Toast.makeText(view.getContext(), "Database unavailable", Toast.LENGTH_SHORT);
             toast.show();
         }
-    }
-
-    public static WordFragment newInstance(int tabPosition) {
-        WordFragment wordFragment = new WordFragment();
-
-        Bundle arguments = new Bundle();
-        arguments.putInt("tabPosition", tabPosition);
-        wordFragment.setArguments(arguments);
-
-        return wordFragment;
     }
 
     @Override

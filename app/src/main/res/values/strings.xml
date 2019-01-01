@@ -1,19 +1,23 @@
 <resources>
     <string name="app_name" translatable="false">Quick Speak</string>
-    <string name="english_language">English</string>
     <string name="language_choice">Choose Language</string>
     <string name="english_level_choice">Choose Level</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
 
-    <string-array name="languages">
-        <item>English</item>
-        <!--<item>Italian</item>-->
-    </string-array>
+    <string name="english">English</string>
 
-    <string-array name="english_word_levels">
-        <item>Level 1</item>
-        <item>Level 2</item>
-        <item>Level 3</item>
-        <item>Level 4</item>
-    </string-array>
+    <string name="level_1">Level 1</string>
+    <string name="level_2">Level 2</string>
+    <string name="level_3">Level 3</string>
+    <string name="level_4">Level 4</string>
+    <string name="level_5">Level 5</string>
+    <string name="level_6">Level 6</string>
+    <string name="level_7">Level 7</string>
+    <string name="level_8">Level 8</string>
+    <string name="level_9">Level 9</string>
+    <string name="level_10">Level 10</string>
+    <string name="level_11">Level 11</string>
+    <string name="level_12">Level 12</string>
 
 </resources>

@@ -1,73 +1,88 @@
 package selgo.com.quickspeak;
 
-import android.content.Intent;
+
+import android.app.Fragment;
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.ViewPager;
+import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
+import android.view.MenuItem;
+import android.widget.Toast;
 
-public class TopLevelActivity extends AppCompatActivity {
 
-    private static String[] levels;
+public class TopLevelActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+
+    private CharSequence itemTitle = "Level 1";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_top_level);
 
-        LevelPagerAdapter levelPagerAdapter = new LevelPagerAdapter(getSupportFragmentManager());
-        ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
-        viewPager.setAdapter(levelPagerAdapter);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.app_toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle(itemTitle);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
-        tabLayout.setupWithViewPager(viewPager);
+        DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.nav_open_drawer, R.string.nav_close_drawer);
+        drawerLayout.addDrawerListener(actionBarDrawerToggle);
+        actionBarDrawerToggle.syncState();
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.navigation_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+        Bundle arguments = new Bundle();
+        arguments.putCharSequence("itemTitle", itemTitle);
+
+        WordFragment wordFragment = new WordFragment();
+        wordFragment.setArguments(arguments);
+
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.add(R.id.frag_container, wordFragment);
+        fragmentTransaction.commit();
     }
 
-    private class LevelPagerAdapter extends FragmentStatePagerAdapter {
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        itemTitle = item.getTitle();
 
-        public LevelPagerAdapter(FragmentManager fragmentManager) {
-            super(fragmentManager);
+        /*Toast toast = Toast.makeText(this, itemTitle, Toast.LENGTH_SHORT);
+        toast.show();*/
+
+        getSupportActionBar().setTitle(itemTitle);
+
+        DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+
+        if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
+            drawerLayout.closeDrawer(GravityCompat.START);
         }
 
-        @Override
-        public int getCount() {
-            return 4;
-        }
+        Bundle arguments = new Bundle();
+        arguments.putCharSequence("itemTitle", itemTitle);
 
-        @Override
-        public Fragment getItem(int position) {
-            switch (position) {
-                case 0:
-                case 1:
-                case 2:
-                case 3:
-                    return WordFragment.newInstance(position);
-            }
-            return null;
-        }
+        WordFragment wordFragment = new WordFragment();
+        wordFragment.setArguments(arguments);
 
-        @Override
-        public CharSequence getPageTitle(int position) {
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.frag_container, wordFragment);
+        fragmentTransaction.commit();
 
-            levels = getResources().getStringArray(R.array.english_word_levels);
-
-            switch (position) {
-                case 0:
-                    return levels[0];
-                case 1:
-                    return levels[1];
-                case 2:
-                    return levels[2];
-                case 3:
-                    return levels[3];
-                default:
-                    return "SampleTitle";
-            }
-        }
+        return true;
     }
 
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+
+        if(drawerLayout.isDrawerOpen(GravityCompat.START)) {
+            drawerLayout.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
+    }
 }
