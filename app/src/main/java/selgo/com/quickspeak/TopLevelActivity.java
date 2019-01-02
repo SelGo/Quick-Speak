@@ -18,6 +18,8 @@ import android.widget.Toast;
 public class TopLevelActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private CharSequence itemTitle = "Level 1";
+    private WordFragment wordFragment;
+    private NavigationView navigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,18 +35,21 @@ public class TopLevelActivity extends AppCompatActivity implements NavigationVie
         drawerLayout.addDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.navigation_view);
+        navigationView = (NavigationView) findViewById(R.id.navigation_view);
         navigationView.setNavigationItemSelectedListener(this);
+        navigationView.setCheckedItem(R.id.level_1);
 
         Bundle arguments = new Bundle();
         arguments.putCharSequence("itemTitle", itemTitle);
 
-        WordFragment wordFragment = new WordFragment();
+        wordFragment = new WordFragment();
         wordFragment.setArguments(arguments);
 
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.add(R.id.frag_container, wordFragment);
         fragmentTransaction.commit();
+
+
     }
 
     @Override
@@ -58,14 +63,13 @@ public class TopLevelActivity extends AppCompatActivity implements NavigationVie
 
         DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
-        if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
-            drawerLayout.closeDrawer(GravityCompat.START);
-        }
+        item.setChecked(true);
+        drawerLayout.closeDrawers();
 
         Bundle arguments = new Bundle();
         arguments.putCharSequence("itemTitle", itemTitle);
 
-        WordFragment wordFragment = new WordFragment();
+        wordFragment = new WordFragment();
         wordFragment.setArguments(arguments);
 
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
@@ -80,7 +84,7 @@ public class TopLevelActivity extends AppCompatActivity implements NavigationVie
         DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
         if(drawerLayout.isDrawerOpen(GravityCompat.START)) {
-            drawerLayout.closeDrawer(GravityCompat.START);
+            drawerLayout.closeDrawers();
         } else {
             super.onBackPressed();
         }
