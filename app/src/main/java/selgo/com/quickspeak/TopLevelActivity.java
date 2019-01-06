@@ -20,11 +20,16 @@ public class TopLevelActivity extends AppCompatActivity implements NavigationVie
     private CharSequence itemTitle = "Level 1";
     private WordFragment wordFragment;
     private NavigationView navigationView;
+    FragmentTransaction fragmentTransaction;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_top_level);
+
+        if (savedInstanceState != null) {
+            itemTitle = savedInstanceState.getCharSequence("itemTitle");
+        }
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.app_toolbar);
         setSupportActionBar(toolbar);
@@ -45,11 +50,10 @@ public class TopLevelActivity extends AppCompatActivity implements NavigationVie
         wordFragment = new WordFragment();
         wordFragment.setArguments(arguments);
 
-        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.add(R.id.frag_container, wordFragment);
+        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
-
-
     }
 
     @Override
@@ -88,5 +92,17 @@ public class TopLevelActivity extends AppCompatActivity implements NavigationVie
         } else {
             super.onBackPressed();
         }
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putCharSequence("itemTitle", itemTitle);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        fragmentTransaction.remove(wordFragment);
     }
 }
